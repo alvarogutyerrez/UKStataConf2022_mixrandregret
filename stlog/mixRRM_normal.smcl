@@ -1,5 +1,30 @@
-{smcl}
-{com}{sf}{ul off}{txt}
 {com}. mixrandregret choice  tc , gr(obs) alt(altern) rand(tt) id(id) ///
 > nocons cluster(id)  nrep(500) from(init_mix_rrm) tech(bhhh)  nolog
 {res}
+{txt}Case ID variable: obs{col 48}Number of cases{col 67}= {res}      1060
+{txt}Alternative variable: altern{col 48}
+Random variable(s): tt{col 48}
+
+{col 34}(Std. Err. adjusted for{res}  106{txt} clusters in id)
+
+Mixed random regret model{col 49}Number of obs{col 67}= {res}     3,180
+{txt}{col 49}Wald chi2({res}2{txt}){col 67}= {res}    606.11
+{txt}Log likelihood = {res}-771.05731{txt}{col 49}Prob > chi2{col 67}= {res}    0.0000
+
+{txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{col 14}{c |}{col 26}      OPG
+{col 1}      choice{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
+{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}Mean         {txt}{c |}
+{space 10}tc {c |}{col 14}{res}{space 2}-1.102133{col 26}{space 2} .0449728{col 37}{space 1}  -24.51{col 46}{space 3}0.000{col 54}{space 4}-1.190278{col 67}{space 3}-1.013988
+{txt}{space 10}tt {c |}{col 14}{res}{space 2}-.3579483{col 26}{space 2} .0581553{col 37}{space 1}   -6.16{col 46}{space 3}0.000{col 54}{space 4}-.4719307{col 67}{space 3} -.243966
+{txt}{hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+{res}SD           {txt}{c |}
+{space 10}tt {c |}{col 14}{res}{space 2} .5068777{col 26}{space 2} .0413721{col 37}{space 1}   12.25{col 46}{space 3}0.000{col 54}{space 4} .4257899{col 67}{space 3} .5879656
+{txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
+
+The sign of the estimated standard deviations is irrelevant: interpret them as
+being positive
+
+{com}. matrix b_mixrrm = e(b)
+{txt}

@@ -1,5 +1,5 @@
 . mixrandregret choice  tc , gr(obs) alt(altern) rand(tt) id(id) ///
-> nocons cluster(id)  nrep(100) from(init_mix_rrm) tech(bhhh)  nolog
+> nocons cluster(id)  nrep(500) from(init_mix_rrm) tech(bhhh)  nolog
 
 Case ID variable: obs                          Number of cases    =       1060
 Alternative variable: altern                   
@@ -8,19 +8,19 @@ Random variable(s): tt
                                  (Std. Err. adjusted for  106 clusters in id)
 
 Mixed random regret model                       Number of obs     =      3,180
-                                                Wald chi2(2)      =     605.56
-Log likelihood = -770.80502                     Prob > chi2       =     0.0000
+                                                Wald chi2(2)      =     606.11
+Log likelihood = -771.05731                     Prob > chi2       =     0.0000
 
 ------------------------------------------------------------------------------
              |                 OPG
       choice |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
 -------------+----------------------------------------------------------------
 Mean         |
-          tc |  -1.102093   .0449368   -24.53   0.000    -1.190167   -1.014018
-          tt |  -.3528159   .0568895    -6.20   0.000    -.4643172   -.2413145
+          tc |  -1.102133   .0449728   -24.51   0.000    -1.190278   -1.013988
+          tt |  -.3579483   .0581553    -6.16   0.000    -.4719307    -.243966
 -------------+----------------------------------------------------------------
 SD           |
-          tt |   .5107968   .0419348    12.18   0.000     .4286061    .5929875
+          tt |   .5068777   .0413721    12.25   0.000     .4257899    .5879656
 ------------------------------------------------------------------------------
 
 The sign of the estimated standard deviations is irrelevant: interpret them as

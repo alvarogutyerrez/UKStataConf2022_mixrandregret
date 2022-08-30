@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.30)  30 AUG 2022 17:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.30)  30 AUG 2022 17:37
 entering extended mode
 **./mixrandregret_London2022.tex
 (mixrandregret_London2022.tex
@@ -1957,12 +1957,12 @@ s     =      3,180[]
 
 Overfull \hbox (29.30067pt too wide) in paragraph at lines 11--11
  []                                                \OT1/lmtt/m/n/8 Wald chi2(2)
-      =     605.56[] 
+      =     606.11[] 
  []
 
 
 Overfull \hbox (29.30467pt too wide) in paragraph at lines 12--12
- []\OT1/lmtt/m/n/8 Log likelihood = -770.80502                     Prob > chi2 
+ []\OT1/lmtt/m/n/8 Log likelihood = -771.05731                     Prob > chi2 
       =     0.0000[] 
  []
 
@@ -1985,15 +1985,15 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 17--17
  []
 
 
-Overfull \hbox (29.29468pt too wide) in paragraph at lines 19--19
- []          \OT1/lmtt/m/n/8 tc  |  -1.102093   .0449368   -24.53   0.000    -1
-.190167   -1.014018[] 
+Overfull \hbox (29.29868pt too wide) in paragraph at lines 19--19
+ []          \OT1/lmtt/m/n/8 tc  |  -1.102133   .0449728   -24.51   0.000    -1
+.190278   -1.013988[] 
  []
 
 
-Overfull \hbox (29.29468pt too wide) in paragraph at lines 20--20
- []          \OT1/lmtt/m/n/8 tt  |  -.3528159   .0568895    -6.20   0.000    -.
-4643172   -.2413145[] 
+Overfull \hbox (29.29068pt too wide) in paragraph at lines 20--20
+ []          \OT1/lmtt/m/n/8 tt  |  -.3579483   .0581553    -6.16   0.000    -.
+4719307    -.243966[] 
  []
 
 
@@ -2003,9 +2003,9 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 21--21
  []
 
 
-Overfull \hbox (29.29068pt too wide) in paragraph at lines 23--23
- []          \OT1/lmtt/m/n/8 tt  |   .5107968   .0419348    12.18   0.000     .
-4286061    .5929875[] 
+Overfull \hbox (29.29268pt too wide) in paragraph at lines 23--23
+ []          \OT1/lmtt/m/n/8 tt  |   .5068777   .0413721    12.25   0.000     .
+4257899    .5879656[] 
  []
 
 
@@ -2029,7 +2029,7 @@ Package pdftex.def Info: graphics/KUL.pdf  used on input line 802.
 
 ] (stlog/mixRRM_normal_idl.log.tex
 Overfull \hbox (46.30467pt too wide) in paragraph at lines 4--4
- []\OT1/lmtt/m/n/8 . qui mixrbeta tt , nrep(100)  replace saving("${graphs_rout
+ []\OT1/lmtt/m/n/8 . qui mixrbeta tt , nrep(500)  replace saving("${graphs_rout
 e}\mixRRM_normal_idl")[] 
  []
 
@@ -2310,7 +2310,7 @@ LaTeX Warning: There were multiply-defined labels.
 Here is how much of TeX's memory you used:
  38780 strings out of 492453
  793741 string characters out of 3118674
- 871287 words of memory out of 3000000
+ 871289 words of memory out of 3000000
  42310 multiletter control sequences out of 15000+200000
  623486 words of font info for 95 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -2364,7 +2364,7 @@ lic/lm/lmtk10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
 pe1/public/lm/lmtt10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/f
 onts/type1/public/lm/lmtt8.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX
  2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on mixrandregret_London2022.pdf (33 pages, 802540 bytes).
+Output written on mixrandregret_London2022.pdf (33 pages, 802196 bytes).
 PDF statistics:
  624 PDF objects out of 1000 (max. 8388607)
  94 named destinations out of 1000 (max. 500000)
