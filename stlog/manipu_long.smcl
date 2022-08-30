@@ -1,0 +1,26 @@
+{com}. rename (choice)  (choice_w)
+{res}{txt}
+{com}. qui reshape long tt tc  , i(obs) j(altern)
+{txt}
+{com}. generate choice = 0
+{txt}
+{com}. replace  choice = 1 if  choice_w==altern  
+{txt}(1,060 real changes made)
+
+{com}. label define  alt_label 1 "First" 2 "Second" 3 "Third" 
+{txt}
+{com}. label values  altern alt_label
+{txt}
+{com}. list obs altern choice id  tt tc   in 1/6, sepby(obs)
+{txt}
+     {c TLC}{hline 5}{c -}{hline 8}{c -}{hline 8}{c -}{hline 4}{c -}{hline 4}{c -}{hline 4}{c TRC}
+     {c |} {res}obs   altern   choice   id   tt   tc {txt}{c |}
+     {c LT}{hline 5}{c -}{hline 8}{c -}{hline 8}{c -}{hline 4}{c -}{hline 4}{c -}{hline 4}{c RT}
+  1. {c |} {res}  1    First        0    1   23    6 {txt}{c |}
+  2. {c |} {res}  1   Second        0    1   27    4 {txt}{c |}
+  3. {c |} {res}  1    Third        1    1   35    3 {txt}{c |}
+     {c LT}{hline 5}{c -}{hline 8}{c -}{hline 8}{c -}{hline 4}{c -}{hline 4}{c -}{hline 4}{c RT}
+  4. {c |} {res}  2    First        0    1   27    5 {txt}{c |}
+  5. {c |} {res}  2   Second        1    1   35    4 {txt}{c |}
+  6. {c |} {res}  2    Third        0    1   23    6 {txt}{c |}
+     {c BLC}{hline 5}{c -}{hline 8}{c -}{hline 8}{c -}{hline 4}{c -}{hline 4}{c -}{hline 4}{c BRC}

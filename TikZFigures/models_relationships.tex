@@ -1,0 +1,84 @@
+\documentclass[border=0.5pt]{standalone}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows, shadows,positioning}
+
+
+\begin{document}
+
+
+
+\tikzstyle{greenrect} = [rectangle, rounded corners, minimum width=5cm, minimum height=0.5cm,text justified, draw=black]
+\tikzstyle{arrow} = [thick,->,>=stealth, line width=1.5pt]
+\tikzstyle{line} = [thick,-,>=stealth, line width=1.5pt]
+
+\begin{tikzpicture}[auto, node distance=2.5cm]
+\node(Gene) [greenrect] {
+\begin{tabular}
+{c}GRRM\\
+$R^{\text{GRRM}}_{in} = \sum_{j\neq i }^{J}\left\{   \sum_{m=1}^{M}\ln\left\{\gamma + \exp\left[\beta_{m}\cdot\left(x_{jmn} - x_{imn}\right)\right]\right\} \right\}$ 
+\end{tabular}};
+
+\node (Classic) [greenrect, below of=Gene]  {
+\begin{tabular}{c}
+ RRM\\
+$R_{in} = \sum_{j\neq i }^{J}\left\{   \sum_{m=1}^{M}\ln\left\{1 + \exp\left[\beta_{m}\cdot\left(x_{jmn} - x_{imn}\right)\right]\right\} \right\}   $ 
+\end{tabular}};
+
+
+\node(mu) [greenrect, below of=Classic, node distance=2.5cm] {
+\begin{tabular}{c}
+$\mu$RRM\\
+$R^{\mu \text{RRM}}_{in} = \sum_{j\neq i }^{J}\left\{   \sum_{m=1}^{M}\ln\left\{1 + \exp\left[(\beta_{m}/\mu)\cdot\left(x_{jmn} - x_{imn}\right)\right]\right\} \right\} $\\
+\end{tabular}};
+
+
+
+\node (RUM) [greenrect,below  left of=mu, node distance=3.7cm] {
+	\begin{tabular}{c}
+	RUM\\
+	$U_{in} = \sum_{m=1}^{M}\beta_{m}\cdot x_{imn}$ \\
+	\end{tabular}};
+
+\node (Pure) [greenrect,below right of=mu, node distance=3.7cm] {
+	\begin{tabular}{c}
+	PRRM\\
+	$R_{in}^{\text{PRRM}} = \sum_{m=1}^{M}\beta_{m}\cdot x_{imn}^{\text{PRRM}}$ 	
+%	$x_{imn}^{P} =$
+%	$\left\{\begin{matrix}
+%	\sum_{j\neq i } \max\left\{0,x_{jmn}-x_{imn}\right\}   \text{if} \;\; \beta_{m}>0 \\
+%	\sum_{j\neq i } \min\left\{0,x_{jmn}-x_{imn}\right\}  \text{if} \;\; \beta_{m}<0 
+%	\end{matrix}\right.$
+	\end{tabular}
+};
+
+
+\node (auxGENEtoRUM1) [left of=Gene, node distance=6.15cm] {
+};
+
+\node (auxGENEtoRUM2) [left of=RUM, node distance=3.6cm] {
+};
+
+
+\draw [line,densely dotted] (Gene) -- node[name=no] {} (auxGENEtoRUM1);
+\draw [line,densely dotted] (auxGENEtoRUM1) -- node[name=yes,right,text width=2cm,midway] {$\gamma=0$} (auxGENEtoRUM2);
+\draw [arrow,densely dotted] (auxGENEtoRUM2) -- node[name=no] {} (RUM);
+
+
+
+
+\draw [arrow] (Gene) -- node[name=no] {$\gamma=1$} (Classic);
+
+\draw [arrow] (mu) -- node[name=no] {$\mu=1$} (Classic);
+\draw [arrow,densely dotted] (mu) -- node[name=yes,above,text width=2cm,midway] {$\mu\rightarrow\infty$} (RUM);
+\draw [arrow] (mu) -- node[name=no] {$\mu\rightarrow 0$} (Pure);
+
+
+
+
+\end{tikzpicture}
+
+
+
+
+\end{document}

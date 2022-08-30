@@ -1,0 +1,24 @@
+. randregret choice  tc tt, gr(obs) alt(altern) rrmfn(classic) ///
+> nocons cluster(id)  nolog
+\HLI{78}
+Fitting Classic RRM Model 
+\HLI{78}
+{\smallskip}
+RRM: Classic Random Regret Minimization Model
+{\smallskip}
+Case ID variable: obs                          Number of cases    =       1060
+Alternative variable: altern                   Number of obs      =       3180
+                                               Wald chi2(2)       =      40.41
+Log likelihood = -1118.4784                    Prob > chi2        =     0.0000
+                                 (Std. Err. adjusted for   106 clusters in id)
+\HLI{13}{\TOPT}\HLI{64}
+             {\VBAR}               Robust
+      choice {\VBAR}      Coef.   Std. Err.      z    P>|z|     [95\% Conf. Interval]
+\HLI{13}{\PLUS}\HLI{64}
+RRM          {\VBAR}
+          tc {\VBAR}   -.417101    .068059    -6.13   0.000    -.5504943   -.2837078
+          tt {\VBAR}   -.102813   .0182526    -5.63   0.000    -.1385874   -.0670386
+\HLI{13}{\BOTT}\HLI{64}
+{\smallskip}
+. matrix b_rrm = e(b)
+{\smallskip}

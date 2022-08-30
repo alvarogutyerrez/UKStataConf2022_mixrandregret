@@ -1,0 +1,26 @@
+\begin{thebibliography}{}
+
+\bibitem[Chorus, 2010]{chorus2010}
+Chorus, C.~G. (2010).
+\newblock A new model of random regret minimization.
+\newblock {\em European Journal of Transport and Infrastructure Research},
+  10(2):181--196.
+
+\bibitem[Gutiérrez-Vargas et~al., 2021]{randregret_2021}
+Gutiérrez-Vargas, l.~A., Meulders, M., and Vandebroek, M. (2021).
+\newblock randregret: A command for fitting random regret minimization models
+  using stata.
+\newblock {\em The Stata Journal}, 21(3):626--658.
+
+\bibitem[Train, 2009]{train2009discrete}
+Train, K.~E. (2009).
+\newblock {\em Discrete Choice Methods with Simulation}.
+\newblock Cambridge University Press, 2 edition.
+
+\bibitem[{van Cranenburgh}, 2018]{Sander_data}
+{van Cranenburgh}, S. (2018).
+\newblock Small value-of-time experiment, netherlands.
+\newblock 4TU.Centre for Research Data, Dataset
+  \url{https://doi.org/10.4121/uuid:1ccca375-68ca-4cb6-8fc0-926712f50404}.
+
+\end{thebibliography}

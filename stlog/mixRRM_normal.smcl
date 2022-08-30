@@ -1,0 +1,5 @@
+{smcl}
+{com}{sf}{ul off}{txt}
+{com}. mixrandregret choice  tc , gr(obs) alt(altern) rand(tt) id(id) ///
+> nocons cluster(id)  nrep(500) from(init_mix_rrm) tech(bhhh)  nolog
+{res}

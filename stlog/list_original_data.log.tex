@@ -1,0 +1,20 @@
+. scalar server = "https://data.4tu.nl/ndownloader/"
+{\smallskip}
+. scalar doi = "files/24015353"
+{\smallskip}
+. import delimited   "`=server + doi'" ,clear
+(29 vars, 1,060 obs)
+{\smallskip}
+. keep obs id   tt1 tc1 tt2 tc2 tt3 tc3 choice 
+{\smallskip}
+. list obs id   tt1 tc1 tt2 tc2 tt3 tc3 choice in 1/3,sepby(obs)
+{\smallskip}
+     {\TLC}\HLI{55}{\TRC}
+     {\VBAR} obs   id   tt1   tc1   tt2   tc2   tt3   tc3   choice {\VBAR}
+     {\LFTT}\HLI{55}{\RGTT}
+  1. {\VBAR}   1    1    23     6    27     4    35     3        3 {\VBAR}
+     {\LFTT}\HLI{55}{\RGTT}
+  2. {\VBAR}   2    1    27     5    35     4    23     6        2 {\VBAR}
+     {\LFTT}\HLI{55}{\RGTT}
+  3. {\VBAR}   3    1    35     3    23     5    31     4        1 {\VBAR}
+     {\BLC}\HLI{55}{\BRC}

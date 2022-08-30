@@ -1,0 +1,26 @@
+. rename (choice)  (choice_w)
+
+. qui reshape long tt tc  , i(obs) j(altern)
+
+. generate choice = 0
+
+. replace  choice = 1 if  choice_w==altern  
+(1,060 real changes made)
+
+. label define  alt_label 1 "First" 2 "Second" 3 "Third" 
+
+. label values  altern alt_label
+
+. list obs altern choice id  tt tc   in 1/6, sepby(obs)
+
+     +--------------------------------------+
+     | obs   altern   choice   id   tt   tc |
+     |--------------------------------------|
+  1. |   1    First        0    1   23    6 |
+  2. |   1   Second        0    1   27    4 |
+  3. |   1    Third        1    1   35    3 |
+     |--------------------------------------|
+  4. |   2    First        0    1   27    5 |
+  5. |   2   Second        1    1   35    4 |
+  6. |   2    Third        0    1   23    6 |
+     +--------------------------------------+
