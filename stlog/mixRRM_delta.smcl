@@ -9,7 +9,7 @@
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}      choice{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 3}mean_time {c |}{col 14}{res}{space 2}-.6945106{col 26}{space 2} .1603422{col 37}{space 1}   -4.33{col 46}{space 3}0.000{col 54}{space 4}-1.008776{col 67}{space 3}-.3802456
-{txt}{space 4}med_time {c |}{col 14}{res}{space 2}-.2745346{col 26}{space 2} .0425375{col 37}{space 1}   -6.45{col 46}{space 3}0.000{col 54}{space 4}-.3579065{col 67}{space 3}-.1911627
-{txt}{space 5}sd_time {c |}{col 14}{res}{space 2} 1.613861{col 26}{space 2} .6351531{col 37}{space 1}    2.54{col 46}{space 3}0.011{col 54}{space 4} .3689834{col 67}{space 3} 2.858738
+{space 3}mean_time {c |}{col 14}{res}{space 2}-.6747959{col 26}{space 2} .1561273{col 37}{space 1}   -4.32{col 46}{space 3}0.000{col 54}{space 4}-.9807998{col 67}{space 3}-.3687919
+{txt}{space 4}med_time {c |}{col 14}{res}{space 2}-.2672598{col 26}{space 2} .0416504{col 37}{space 1}   -6.42{col 46}{space 3}0.000{col 54}{space 4} -.348893{col 67}{space 3}-.1856266
+{txt}{space 5}sd_time {c |}{col 14}{res}{space 2} 1.564444{col 26}{space 2} .6164874{col 37}{space 1}    2.54{col 46}{space 3}0.011{col 54}{space 4} .3561513{col 67}{space 3} 2.772737
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}

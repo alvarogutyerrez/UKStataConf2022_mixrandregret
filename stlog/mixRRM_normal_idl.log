@@ -1,7 +1,7 @@
 . preserve 
 
 . /* Computing Individual Level Parameters */
-. qui mixrbeta tt , nrep(500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
+. qui mixrbeta tt , nrep(2500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
 
 . use "${graphs_route}\mixRRM_normal_idl" , replace
 
@@ -10,9 +10,9 @@
      +-----------------+
      | id           tt |
      |-----------------|
-  1. |  1    .37648493 |
-  2. |  2   -.05517235 |
-  3. |  3    .37680846 |
-  4. |  4    .38503775 |
-  5. |  5    .37615914 |
+  1. |  1    .37685711 |
+  2. |  2   -.05430611 |
+  3. |  3    .37977812 |
+  4. |  4    .38137321 |
+  5. |  5    .38062728 |
      +-----------------+

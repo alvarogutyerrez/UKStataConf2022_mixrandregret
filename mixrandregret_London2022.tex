@@ -568,9 +568,9 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 		\item RUM:  parameters are interpreted as the change in utility caused by an increase of a particular attribute level.\pause
 		\item RRM: parameters represent the \textit{potential} change in regret associated \hl{with comparing a considered alternative with another alternative in terms of the attribute}, caused by one unit change in a particular attribute level.\pause
 		\begin{itemize}
-			\item For instance: $\hat{\beta}_{m}>0$ \\
+			\item For instance: $\hat{\beta}_{n,m}>0$ \\
 			suggests that \hl{regret increases} as the \hl{level of that attribute increases} {\color{red}{\textbf{in a non-chosen alternative}}}, in comparison to the level of the same attribute in the chosen alternative \pause (e.g: Comfortable level).\pause
-			\item For instance: $\hat{\beta}_{m}<0$ \\
+			\item For instance: $\hat{\beta}_{n,m}<0$ \\
 			suggests that \hl{regret decreases} as the \hl{level of that attribute increases} {\color{red}{\textbf{in a non-chosen alternative}}}, in comparison to the level of the same attribute in the chosen alternative \pause (e.g: Total Time). \pause
 		\end{itemize}
 		\item All in all. the parameters in RUM and RRM, are expected to have the same sign, even though their interpretation is dramatically different.
@@ -605,10 +605,10 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 \section{Mixed Random Regret Minimization Models}
 \begin{frame}{Mixed Random Regret Minimization Models}
 
-New assumptions of the model. 
+Additional assumptions of the model. 
 
 \begin{itemize}
-	\item $\boldsymbol{\beta}_{n}$ follows a parametric distribution, denoted by $f\left(\boldsymbol{\beta}|\varphi \right) $.\medskip\pause 	
+	\item $\boldsymbol{\beta}_{n}= \left(\beta_{n,1},\dots,\beta_{n,m}\right)$ follows a parametric distribution: $f\left(\boldsymbol{\beta}|\varphi \right) $.\medskip\pause 	
 	
 	\item $\varphi$ are the parameters that describe the distribution (e.g., mean and variance of a Normal distribution)\pause \medskip .
 

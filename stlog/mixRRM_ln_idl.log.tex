@@ -1,17 +1,19 @@
 . /* Computing Individual Level Parameters */
-. qui mixrbeta ntt , nrep(100)  replace saving("${\lbr}graphs_route{\rbr}\\mixRRM_ln_idl") 
+. qui mixrbeta ntt , nrep(2500)  replace saving("${\lbr}graphs_route{\rbr}\\mixRRM_ln_idl") 
 {\smallskip}
 . use "${\lbr}graphs_route{\rbr}\\mixRRM_ln_idl" , replace
 {\smallskip}
 . replace ntt = -1 * ntt /*reverse sign for graph*/
 (106 real changes made)
 {\smallskip}
-. list id  ntt  in 1/3 
+. list id  ntt  in 1/5 
 {\smallskip}
      {\TLC}\HLI{17}{\TRC}
      {\VBAR} id          ntt {\VBAR}
      {\LFTT}\HLI{17}{\RGTT}
-  1. {\VBAR}  1   -.04005948 {\VBAR}
-  2. {\VBAR}  2   -.08146095 {\VBAR}
-  3. {\VBAR}  3   -.04124789 {\VBAR}
+  1. {\VBAR}  1   -.04069996 {\VBAR}
+  2. {\VBAR}  2   -.08141572 {\VBAR}
+  3. {\VBAR}  3   -.04084935 {\VBAR}
+  4. {\VBAR}  4   -.04085223 {\VBAR}
+  5. {\VBAR}  5   -.04080759 {\VBAR}
      {\BLC}\HLI{17}{\BRC}

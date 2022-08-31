@@ -46,7 +46,7 @@ matrix li init_mix_rrm
 
 sjlog using   "${stlog}\mixRRM_normal" , replace 
 mixrandregret choice  tc , gr(obs) alt(altern) rand(tt) id(id) ///
-nocons cluster(id)  nrep(500) from(init_mix_rrm) tech(bhhh)  nolog
+nocons cluster(id)  nrep(2500) from(init_mix_rrm) tech(bhhh)  nolog
 matrix b_mixrrm = e(b)
 sjlog close , replace
 
@@ -55,7 +55,7 @@ sjlog close , replace
 sjlog using "${stlog}\mixRRM_normal_idl" , replace 
 preserve 
 /* Computing Individual Level Parameters */
-qui mixrbeta tt , nrep(500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
+qui mixrbeta tt , nrep(2500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
 use "${graphs_route}\mixRRM_normal_idl" , replace
 list id  tt  in 1/5 
 sjlog close , replace
@@ -70,13 +70,13 @@ restore
 sjlog using   "${stlog}\mixRRM_ln" , replace 
 gen ntt = -1 * tt
 mixrandregret choice  tc , gr(obs) alt(altern) rand(ntt ) ln(1) id(id) ///
-nocons cluster(id)  nrep(500) tech(bhhh) from(b_mixrrm) nolog
+nocons cluster(id)  nrep(2500) tech(bhhh) from(b_mixrrm) nolog
 sjlog close , replace
 
 preserve
 sjlog using  "${stlog}\mixRRM_ln_idl" , replace 
 /* Computing Individual Level Parameters */
-qui mixrbeta ntt , nrep(500)  replace saving("${graphs_route}\mixRRM_ln_idl") 
+qui mixrbeta ntt , nrep(2500)  replace saving("${graphs_route}\mixRRM_ln_idl") 
 use "${graphs_route}\mixRRM_ln_idl" , replace
 replace ntt = -1 * ntt /*reverse sign for graph*/
 list id  ntt  in 1/5 
