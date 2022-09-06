@@ -1,11 +1,11 @@
-\beamer@slide {tab_choice_task_1_ex}{4}
-\beamer@slide {tab_choice_task_1_ex}{5}
 \beamer@slide {tab:addlabel}{7}
 \beamer@slide {eq:RRM_classic}{9}
 \beamer@slide {fr:loglike}{10}
 \beamer@slide {eq:RRM_classic_pbb}{10}
 \beamer@slide {eq:LL}{10}
-\beamer@slide {eq:LL_mixed}{15}
-\beamer@slide {eq:individual_level_params_estimates}{18}
-\beamer@slide {fig:mixrrmlnidl}{25}
-\beamer@slide {fig:mixrrmlnidl}{28}
+\beamer@slide {eq:LL_mixed}{14}
+\beamer@slide {eq:individual_level_param}{17}
+\beamer@slide {eq:individual_level_params_estimates}{17}
+\beamer@slide {fig:mixrrmlnidl}{24}
+\beamer@slide {fig:mixrrmlnidl}{27}
+\beamer@slide {fig:qrmixrandregret}{33}

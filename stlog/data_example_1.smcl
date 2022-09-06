@@ -1,0 +1,9 @@
+{com}. list altern  total_time total_cost in 1/3, sepby(cs) ab(10) noo
+{txt}
+  {c TLC}{hline 8}{c -}{hline 12}{c -}{hline 12}{c TRC}
+  {c |} {res}altern   total_time   total_cost {txt}{c |}
+  {c LT}{hline 8}{c -}{hline 12}{c -}{hline 12}{c RT}
+  {c |} {res} First           23            6 {txt}{c |}
+  {c |} {res}Second           27            4 {txt}{c |}
+  {c |} {res} Third           35            3 {txt}{c |}
+  {c BLC}{hline 8}{c -}{hline 12}{c -}{hline 12}{c BRC}

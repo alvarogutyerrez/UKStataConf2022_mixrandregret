@@ -1,4 +1,4 @@
-{com}. randregret choice  tc tt, gr(obs) alt(altern) rrmfn(classic) ///
+{com}. randregret choice total_time total_cost , gr(cs) alt(altern) rrmfn(classic) ///
 > nocons cluster(id)  nolog
 {res}{txt}{hline 78}
 Fitting Classic RRM Model 
@@ -6,7 +6,7 @@ Fitting Classic RRM Model
 {res}{txt}{res}
 {txt}RRM: Classic Random Regret Minimization Model
 
-Case ID variable: obs{col 48}Number of cases{col 67}= {res}      1060
+Case ID variable: cs{col 48}Number of cases{col 67}= {res}      1060
 {txt}Alternative variable: altern{col 48}Number of obs{col 67}= {res}      3180
 {txt}{col 48}Wald chi2(2){col 67}= {res}     40.41
 {txt}Log likelihood = {res}-1118.4784{col 48}{txt}{col 48}Prob > chi2{col 67}= {res}    0.0000
@@ -16,8 +16,8 @@ Case ID variable: obs{col 48}Number of cases{col 67}= {res}      1060
 {col 1}      choice{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {res}RRM          {txt}{c |}
-{space 10}tc {c |}{col 14}{res}{space 2} -.417101{col 26}{space 2}  .068059{col 37}{space 1}   -6.13{col 46}{space 3}0.000{col 54}{space 4}-.5504943{col 67}{space 3}-.2837078
-{txt}{space 10}tt {c |}{col 14}{res}{space 2} -.102813{col 26}{space 2} .0182526{col 37}{space 1}   -5.63{col 46}{space 3}0.000{col 54}{space 4}-.1385874{col 67}{space 3}-.0670386
+{space 2}total_time {c |}{col 14}{res}{space 2} -.102813{col 26}{space 2} .0182526{col 37}{space 1}   -5.63{col 46}{space 3}0.000{col 54}{space 4}-.1385874{col 67}{space 3}-.0670386
+{txt}{space 2}total_cost {c |}{col 14}{res}{space 2} -.417101{col 26}{space 2}  .068059{col 37}{space 1}   -6.13{col 46}{space 3}0.000{col 54}{space 4}-.5504943{col 67}{space 3}-.2837078
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 
 {com}. matrix b_rrm = e(b)

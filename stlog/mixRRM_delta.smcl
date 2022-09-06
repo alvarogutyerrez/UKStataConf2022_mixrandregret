@@ -1,15 +1,16 @@
-{com}. nlcom (mean_time: -1*exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2)) ///
-> (med_time: -1*exp([Mean]_b[ntt ])) /// 
-> (sd_time: exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2) * sqrt(exp([SD]_b[ntt ]^2)-1))
+{com}. nlcom /// 
+> (mean_time: -1*exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)) ///
+> (med_time : -1*exp([Mean]_b[ntt])) /// 
+> (sd_time  :    exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)*sqrt(exp([SD]_b[ntt]^2)-1))
 
-   {txt}mean_time:  {res}-1*exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2)
-    {txt}med_time:  {res}-1*exp([Mean]_b[ntt ])
-     {txt}sd_time:  {res}exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2) * sqrt(exp([SD]_b[ntt ]^2)-1)
+   {txt}mean_time:  {res}-1*exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)
+    {txt}med_time:  {res}-1*exp([Mean]_b[ntt])
+     {txt}sd_time:  {res}exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)*sqrt(exp([SD]_b[ntt]^2)-1)
 
 {txt}{hline 13}{c TT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
 {col 1}      choice{col 14}{c |}      Coef.{col 26}   Std. Err.{col 38}      z{col 46}   P>|z|{col 54}     [95% Con{col 67}f. Interval]
 {hline 13}{c +}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}
-{space 3}mean_time {c |}{col 14}{res}{space 2}-.6747959{col 26}{space 2} .1561273{col 37}{space 1}   -4.32{col 46}{space 3}0.000{col 54}{space 4}-.9807998{col 67}{space 3}-.3687919
-{txt}{space 4}med_time {c |}{col 14}{res}{space 2}-.2672598{col 26}{space 2} .0416504{col 37}{space 1}   -6.42{col 46}{space 3}0.000{col 54}{space 4} -.348893{col 67}{space 3}-.1856266
-{txt}{space 5}sd_time {c |}{col 14}{res}{space 2} 1.564444{col 26}{space 2} .6164874{col 37}{space 1}    2.54{col 46}{space 3}0.011{col 54}{space 4} .3561513{col 67}{space 3} 2.772737
+{space 3}mean_time {c |}{col 14}{res}{space 2} -.682127{col 26}{space 2} .1587961{col 37}{space 1}   -4.30{col 46}{space 3}0.000{col 54}{space 4}-.9933616{col 67}{space 3}-.3708923
+{txt}{space 4}med_time {c |}{col 14}{res}{space 2}-.2692041{col 26}{space 2} .0420551{col 37}{space 1}   -6.40{col 46}{space 3}0.000{col 54}{space 4}-.3516307{col 67}{space 3}-.1867776
+{txt}{space 5}sd_time {c |}{col 14}{res}{space 2} 1.588122{col 26}{space 2} .6295756{col 37}{space 1}    2.52{col 46}{space 3}0.012{col 54}{space 4} .3541763{col 67}{space 3} 2.822067
 {txt}{hline 13}{c BT}{hline 11}{hline 11}{hline 9}{hline 8}{hline 13}{hline 12}

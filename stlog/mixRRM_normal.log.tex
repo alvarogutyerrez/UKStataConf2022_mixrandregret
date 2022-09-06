@@ -1,26 +1,26 @@
-. mixrandregret choice  tc , gr(obs) alt(altern) rand(tt) id(id) ///
-> nocons cluster(id)  nrep(2500) from(init_mix_rrm) tech(bhhh)  nolog
+. mixrandregret choice  total_cost , gr(cs) alt(altern) rand(total_time) id(id) ///
+> nocons cluster(id)  nrep(500) from(init_mix_rrm) tech(bhhh)  nolog
 {\smallskip}
-Case ID variable: obs                          Number of cases    =       1060
+Case ID variable: cs                           Number of cases    =       1060
 Alternative variable: altern                   
-Random variable(s): tt                         
+Random variable(s): total_time                 
 {\smallskip}
                                  (Std. Err. adjusted for  106 clusters in id)
 {\smallskip}
 Mixed random regret model                       Number of obs     =      3,180
                                                 Wald chi2(2)      =     606.11
-Log likelihood =  -771.0469                     Prob > chi2       =     0.0000
+Log likelihood = -771.05731                     Prob > chi2       =     0.0000
 {\smallskip}
 \HLI{13}{\TOPT}\HLI{64}
              {\VBAR}                 OPG
       choice {\VBAR}      Coef.   Std. Err.      z    P>|z|     [95\% Conf. Interval]
 \HLI{13}{\PLUS}\HLI{64}
 Mean         {\VBAR}
-          tc {\VBAR}  -1.102123   .0449951   -24.49   0.000    -1.190312   -1.013935
-          tt {\VBAR}  -.3590164   .0583594    -6.15   0.000    -.4733987   -.2446341
+  total_cost {\VBAR}  -1.102136   .0449727   -24.51   0.000    -1.190281   -1.013991
+  total_time {\VBAR}  -.3580736   .0581449    -6.16   0.000    -.4720355   -.2441117
 \HLI{13}{\PLUS}\HLI{64}
 SD           {\VBAR}
-          tt {\VBAR}   .5068101    .041324    12.26   0.000     .4258165    .5878037
+  total_time {\VBAR}   .5068268    .041366    12.25   0.000      .425751    .5879027
 \HLI{13}{\BOTT}\HLI{64}
 {\smallskip}
 The sign of the estimated standard deviations is irrelevant: interpret them as

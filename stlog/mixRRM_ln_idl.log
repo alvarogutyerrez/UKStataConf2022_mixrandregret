@@ -1,5 +1,5 @@
 . /* Computing Individual Level Parameters */
-. qui mixrbeta ntt , nrep(2500)  replace saving("${graphs_route}\mixRRM_ln_idl") 
+. qui mixrbeta ntt , nrep(500)  replace saving("${graphs_route}\mixRRM_ln_idl") 
 
 . use "${graphs_route}\mixRRM_ln_idl" , replace
 
@@ -11,9 +11,9 @@
      +-----------------+
      | id          ntt |
      |-----------------|
-  1. |  1   -.04069996 |
-  2. |  2   -.08141572 |
-  3. |  3   -.04084935 |
-  4. |  4   -.04085223 |
-  5. |  5   -.04080759 |
+  1. |  1   -.04032598 |
+  2. |  2   -.08142616 |
+  3. |  3   -.04047817 |
+  4. |  4   -.04110615 |
+  5. |  5   -.04025335 |
      +-----------------+

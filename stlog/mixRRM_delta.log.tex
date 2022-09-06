@@ -1,15 +1,16 @@
-. nlcom (mean_time: -1*exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]{\caret}2)) ///
-> (med_time: -1*exp([Mean]_b[ntt ])) /// 
-> (sd_time: exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]{\caret}2) * sqrt(exp([SD]_b[ntt ]{\caret}2)-1))
+. nlcom /// 
+> (mean_time: -1*exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]{\caret}2)) ///
+> (med_time : -1*exp([Mean]_b[ntt])) /// 
+> (sd_time  :    exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]{\caret}2)*sqrt(exp([SD]_b[ntt]{\caret}2)-1))
 {\smallskip}
-   mean_time:  -1*exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]{\caret}2)
-    med_time:  -1*exp([Mean]_b[ntt ])
-     sd_time:  exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]{\caret}2) * sqrt(exp([SD]_b[ntt ]{\caret}2)-1)
+   mean_time:  -1*exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]{\caret}2)
+    med_time:  -1*exp([Mean]_b[ntt])
+     sd_time:  exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]{\caret}2)*sqrt(exp([SD]_b[ntt]{\caret}2)-1)
 {\smallskip}
 \HLI{13}{\TOPT}\HLI{64}
       choice {\VBAR}      Coef.   Std. Err.      z    P>|z|     [95\% Conf. Interval]
 \HLI{13}{\PLUS}\HLI{64}
-   mean_time {\VBAR}  -.6747959   .1561273    -4.32   0.000    -.9807998   -.3687919
-    med_time {\VBAR}  -.2672598   .0416504    -6.42   0.000     -.348893   -.1856266
-     sd_time {\VBAR}   1.564444   .6164874     2.54   0.011     .3561513    2.772737
+   mean_time {\VBAR}   -.682127   .1587961    -4.30   0.000    -.9933616   -.3708923
+    med_time {\VBAR}  -.2692041   .0420551    -6.40   0.000    -.3516307   -.1867776
+     sd_time {\VBAR}   1.588122   .6295756     2.52   0.012     .3541763    2.822067
 \HLI{13}{\BOTT}\HLI{64}

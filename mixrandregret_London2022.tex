@@ -21,6 +21,8 @@
 %%% Added alvaro
 \usepackage{fancyvrb} %inline verbatim...
 
+\usepackage{caption}
+\usepackage{bbding}
 
 
 %multi-row
@@ -115,6 +117,9 @@
 
 
 
+\setbeamertemplate{caption}[numbered]
+
+
 
 \begin{document}
 \csname beamer@calculateheadfoot\endcsname %recalculate head and foot dimension
@@ -146,52 +151,71 @@
 	
 	\begin{itemize}
 	\item From Utility to Regret.\pause
-	\item Regret: Situation where a \hl{non-chosen alternative ends up being more attractive than the chosen one}\pause
+	\item Regret: Situation where a \hl{non-chosen alternative ends up being more attractive than the chosen one} for some of the attributes. \pause
 	\item Individuals are assumed to minimize regret.\pause		
-	\end{itemize}
-	
+	\item Consider this hypothetical situation:
 
-	\begin{table}[h!] 
-		\centering
-		\caption{\small{Hypothetical Choice Situation}\label{tab_choice_task_1_ex}}
-		\scalebox{0.75}{\begin{tabular}{|c|c|c|c|}\hline
-				Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
-				Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
-				Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
-		\end{tabular}}
-	\end{table}
-	If we chose alternative $2$:
+		\scalebox{.9}{
+		\begin{minipage}{\hsize}
+			\begin{stlog}
+				\input{stlog/data_example_1.log.tex} \nullskip
+			\end{stlog}
+	\end{minipage}}\pause
+		\end{itemize}
+
+%	\begin{table}[h!] 
+%		\centering
+%		\caption*{\small{Hypothetical Choice Situation}\label{tab_choice_task_1_ex}}
+%		\scalebox{0.75}{\begin{tabular}{|c|c|c|c|}\hline
+%				Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
+%				Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
+%				Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
+%		\end{tabular}}\pause
+%	\end{table}
+
+
+	If we chose alternative $2$:\pause
 	\begin{itemize}
-		\pause \item Alternative $1$ is faster...
-		\pause \item Alternative $3$ is cheaper...
+		 \item Alternative $1$ is faster...\pause
+		 \item Alternative $3$ is cheaper...\pause
 	\end{itemize}
-	\pause \hl{ $\Rightarrow$ RRM models will (formalize and) minimize this notion of regret!}
+	 \hl{ $\Rightarrow$ Regret models will (formalize and) minimize this notion of regret!}
 \end{frame}
 
 
 
-\begin{frame}{Formalization of the later example.}
-	\begin{table}[h!] 
-		\centering
-		\scalebox{0.85}{\begin{tabular}{|c|c|c|c|}\hline
-				Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
-				Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
-				Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
-		\end{tabular}}
-		\caption{Hypothetical Choice Situation\label{tab_choice_task_1_ex}}
-	\end{table}
-	We will denote in the following:
+\begin{frame}{Formalization of the previous example.}
+	\justifying
 	
-	
-	\begin{itemize}
-		\item Decision-makers (referred to $n$) answer $s$ choice situations \pause \medskip
-		\item They decide among $J$ alternatives (referred to $i$ or $j$ indistinctly).\pause\medskip
-		\item Each alternative is described by $M$ attributes (referred to $m$).\pause\medskip
-		\item \hl{$x_{ins,m}$} The value of attribute $m$ of alternative $i$ for individual $n$ in choice situation $s$ is denoted by .\pause
-	\end{itemize}
+		Some (unavoidable) notation for the rest of the presentation:\pause
+		
 
+	
+%	\begin{table}[h!] 
+%		\centering
+%				\caption*{Hypothetical Choice Situation\label{tab_choice_task_1_ex}}
+%		\scalebox{0.85}{\begin{tabular}{|c|c|c|c|}\hline
+%				Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
+%				Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
+%				Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
+%		\end{tabular}}
+%	\end{table}\pause
+
+
+\scalebox{.75}{\begin{minipage}{\hsize}
+		\centering
+		\begin{stlog}
+			\input{stlog/data_example_2.log.tex} \nullskip
+		\end{stlog}
+\end{minipage}}\pause
+	
 	\begin{itemize}
-		\item \hl{$y_{ins}$} is the response variable that takes the value of 1 when alternative $i$ is chosen by individual $n$ in choice situation $s$ and 0 otherwise.
+		\item Individuals (\texttt{\textbf{id}}) are referred by  \hl{$n$}; they answer \hl{$s$} choice situations (\texttt{\textbf{cs}}). \pause 
+		\item They decide among $J$ alternatives (\texttt{\textbf{altern}}) (referred by \hl{$i$} or \hl{$j$}).\pause
+		\item Alternatives are described by $M$ attributes referred by \hl{$m$} (\texttt{\textbf{total\_time}}  and \texttt{\textbf{total\_cost}}). \pause
+		
+		\item \hl{$x_{ins,m}$}: value of attribute $m$ of alternative $i$ for individual $n$ in choice situation $s$. \pause(yes, 4 sub-indexes; \pause I am sorry...)\pause
+		\item \hl{$y_{ins}$}: response variable (\texttt{\textbf{choice}}). It takes the value of 1 when alternative $i$ is chosen by individual $n$ in choice situation $s$; 0 otherwise.
 	\end{itemize}
 \end{frame}
 
@@ -238,7 +262,7 @@
 		&=
 		\sum_{j\neq i }^{J}R_{i\leftrightarrow j n s,  \boldsymbol{T}} 
 		+ 
-		\sum_{j\neq i }^{J}R_{i\leftrightarrow j n s, \boldsymbol{T}} 
+		\sum_{j\neq i }^{J}R_{i\leftrightarrow j n s, \boldsymbol{C}} 
 		+ 
 		\varepsilon_{ins}
 		\end{align*}
@@ -256,9 +280,9 @@
 		\end{tikzpicture}
 		\pause
 		\begin{itemize}
-			\item 	The \hl{notion of \textit{regret}} is characterize by the systematic regret $R_{ins}$. \pause
+			\item 	The \hl{notion of \textit{regret}} is characterized by the systematic regret $R_{ins}$. \pause
 			\medskip
-			\item $R_{in}$ is described in terms of \textit{\textbf{attribute level regret}} ($R_{i\leftrightarrow j ns,m}$).\pause\medskip
+			\item $R_{ins}$ is described in terms of \textit{\textbf{attribute level regret}} ($R_{i\leftrightarrow j ns,m}$).
 		\end{itemize}
 	\end{itemize}
 \end{frame}
@@ -395,22 +419,39 @@
 
 
 \begin{frame}{\textbf{\textit{The Attribute level regret}}  $R_{i\leftrightarrow j ns,m}$}
-	\begin{table}[h!] 
-	\centering
-	\scalebox{0.75}{\begin{tabular}{|c|c|c|c|}\hline
-			Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
-			Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
-			Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
-	\end{tabular}}
+%	\begin{table}[h!] 
+%	\centering
+%	\scalebox{0.75}{\begin{tabular}{|c|c|c|c|}\hline
+%			Attribute $\backslash$  Route & 1 &2 &3  \\ \hline \hline
+%			Travel Time  & 23 min. & 27 min. & 35 min. \\ \hline
+%			Travel Cost  & 6 euros  &4 euros &3 euros \\  \hline 
+%	\end{tabular}}
+%\end{table}
+
+
 \begin{itemize}
-	\item $R_{i\leftrightarrow j , mn}$ describes the \hl{pairwise combinations of regret derived from alternatives}.
+	
+	\item Using the same example as before:
+	
+\scalebox{.775}{
+\begin{minipage}{\hsize}
+\begin{stlog}
+\input{stlog/data_example_1.log.tex} \nullskip
+\end{stlog}
+\end{minipage}}\pause
+
+	
+	\item $R_{i\leftrightarrow j ns,m}$ corresponds to \hl{pairwise combination of regret for alternatives $i$ and $j$} for individual $n$ on attribute $m$ in choice situation $s$.
+	
+
+
 \end{itemize}
 
-\end{table}
+
 \pause
 \begin{table}[h!]
 	\centering
-	\scalebox{0.758}{\begin{tabular}{|c|c|c|c|c|}
+	\scalebox{0.65}{\begin{tabular}{|c|c|c|c|c|}
 		\hline
 		\multicolumn{1}{|c|}{	\textbf{$(x_{jns,m}-x_{{\color{red}{{\boldsymbol{i}}}}ns,m})$}} & Attribute \textbackslash{} Route & $j=1$     & $j=2$     & $j=3$ \bigstrut\\
 		\hline
@@ -448,11 +489,13 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 \beta_{n,m}\cdot\left(x_{jns,m} - x_{ins,m}\right)
 \right\}
 \right] $$
-	\item 	$R_{i\leftrightarrow j ns,m}$ compares alternative $i$ with alternative $j$ in attribute $m$.\pause
+	\item  As we saw,	$R_{i\leftrightarrow j ns,m}$ compares alternative $i$ with alternative $j$ in attribute $m$.\pause
 	\medskip
-	\item $\sum_{j\neq i }R_{i\leftrightarrow jns,m}$ is the equivalent to $x_{ins,m}\times\beta_{n,m}$ in an utilitarian model. \pause
+	\item $\sum_{j\neq i }R_{i\leftrightarrow jns,m}$ is the equivalent to $x_{ins,m}\times\beta_{n,m}$ in an utility model. \pause
 	\medskip	
-\item $\beta_{n,m}$ is the taste parameter of attribute $m$ of individual $n$. 
+\item In both cases, $\beta_{n,m}$ is the taste parameter of attribute $m$ of individual $n$. \pause
+\medskip	
+\item However, they have drastically different interpretation\pause  (more on that later).
 \end{itemize}
 
 \end{frame}
@@ -499,20 +542,20 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 	\begin{tikzpicture}[overlay,remember picture,decoration={segment
 		length=1pt,amplitude=0.4pt},red]
 	\draw[decorate,->] (sumclassicRRM)
-	to[out=-500,in=-500] ++  (0.75,-1)  node[right,->]{Linear sum of all attribute level regret.};
+	to[out=-500,in=-500] ++  (0.75,-1)  node[right,->]{Sum over attributes.};
 	\end{tikzpicture}
 	\pause
 	\medskip		
 	\medskip
 	
-	{\color{cyan}{$\bullet$}} From our example:  $\mathcal{M} = \left\{T,C\right\}$, $J = 3$.\pause
+	{\color{cyan}{$\bullet$}} In  our example:  $M = 2$ (Time and Cost) and  $J = 3$.\pause\medskip
 	
-	{\color{cyan}{$\bullet$}} Regret of alternative 1  ($R_{1ns}$) will be described by:\pause
+	{\color{cyan}{$\bullet$}} Regret of alternative 1  ($R_{1ns}$) will be given by:\pause
 	
 	
 	\scalebox{.95}{\parbox{1\linewidth}{%
 			\begin{align*}
-			R_{1ns} & = \sum_{j\neq i }^{3}\sum_{m\in\mathcal{M}}\ln\left[1 + \exp\left\{\beta_{n,m}(x_{jns,m}-x_{ins,m})\right\}\right]\\
+			R_{1ns} & = \sum_{j\neq i }^{3}\sum_{m=1}^{M}\ln\left[1 + \exp\left\{\beta_{n,m}(x_{jns,m}-x_{ins,m})\right\}\right]\\
 			& = 
 			\color{blue}{\ln\left[1 + \exp\left\{\beta_{n,T}\left(x_{2ns,T}-x_{1ns,T} \right)\right\}\right] + \ln\left[1 + \exp\left\{\beta_{n,c}\left(x_{2ns,C}-x_{1ns,C} \right)\right\}\right] }\\
 			&+\color{red}{\ln\left[1 + \exp\left\{\beta_{n,T}\left(x_{3ns,T}-x_{1ns,T} \right)\right\}\right] + \ln\left[1 + \exp\left\{\beta_{n,C}\left(x_{3ns,C}-x_{1ns,C} \right)\right\}\right] }
@@ -528,7 +571,7 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 	\begin{enumerate}
 		\item  Defining $RR_{ins} =R_{ins} + \varepsilon_{ins}$, where $\varepsilon_{ins}$ is a type I Extreme Value i.i.d. error.\pause
 		\item Acknowledging that the minimization of the random regret is mathematically equivalent to maximizing the negative of the regret.\pause
-		\item Hence, the probabilities may be derived using the Multinomial Logit:	
+		\item Hence, the probabilities can be derived using the Multinomial Logit:	\pause
 	\end{enumerate}
 	
 	
@@ -540,7 +583,7 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 	\pause
 	\begin{enumerate}
 		 \setcounter{enumi}{3}
-		\item Consequently, the log-likelihood will be described by:
+		\item Consequently, the log-likelihood will be given by:\pause
 	\end{enumerate}
 	
 	\scalebox{1}{\parbox{1\linewidth}{%
@@ -568,33 +611,33 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 		\item RUM:  parameters are interpreted as the change in utility caused by an increase of a particular attribute level.\pause
 		\item RRM: parameters represent the \textit{potential} change in regret associated \hl{with comparing a considered alternative with another alternative in terms of the attribute}, caused by one unit change in a particular attribute level.\pause
 		\begin{itemize}
-			\item For instance: $\hat{\beta}_{n,m}>0$ \\
+			\item For instance if  $\hat{\beta}_{n,m}>0$ \\ \pause
 			suggests that \hl{regret increases} as the \hl{level of that attribute increases} {\color{red}{\textbf{in a non-chosen alternative}}}, in comparison to the level of the same attribute in the chosen alternative \pause (e.g: Comfortable level).\pause
-			\item For instance: $\hat{\beta}_{n,m}<0$ \\
+			\item For instance if $\hat{\beta}_{n,m}<0$  \\ \pause
 			suggests that \hl{regret decreases} as the \hl{level of that attribute increases} {\color{red}{\textbf{in a non-chosen alternative}}}, in comparison to the level of the same attribute in the chosen alternative \pause (e.g: Total Time). \pause
 		\end{itemize}
-		\item All in all. the parameters in RUM and RRM, are expected to have the same sign, even though their interpretation is dramatically different.
+		\item All in all, the parameters in RUM and RRM, are expected to have the same sign, even though their interpretation is drastically different.
 		
 	\end{itemize}
 	
 	
 \end{frame}
 
-\subsection{Semi-compensatory Behavior and the Compromise Effect }
-\begin{frame}{{\normalsize{Semi-compensatory Behavior and the Compromise Effect}}}
-	\begin{figure}[h!]
-		\centering
-		\includegraphics[width=.6\linewidth]{TikZFigures/non_compensatory_effect}
-	\end{figure}
-	
-	\begin{itemize}
-		\item \textbf{\textit{Attribute level regret}} $R_{i \leftrightarrow j,mn}$ with $\beta_{m}=1$. \pause
-		\item  $(A) = $ \textit{rejoice} and $(B) = $ \textit{regret} on an equal difference of attribute level.\pause
-		\item For an equal difference of the attribute levels $\Rightarrow$ \hl{regret $>>>$ rejoice}\pause
-		\item Linear RUM models $\Rightarrow$ fully-compensatory model.\pause
-		\item \textbf{Compromise Effect}: Alternatives with \textit{``balanced''} performance in all attributes are more attractive than alternatives with a severe poor performance in one attribute.  
-	\end{itemize}
-\end{frame}
+%\subsection{Semi-compensatory Behavior and the Compromise Effect }
+%\begin{frame}{{\normalsize{Semi-compensatory Behavior and the Compromise Effect}}}
+%	\begin{figure}[h!]
+%		\centering
+%		\includegraphics[width=.6\linewidth]{TikZFigures/non_compensatory_effect}
+%	\end{figure}
+%	
+%	\begin{itemize}
+%		\item \textbf{\textit{Attribute level regret}} $R_{i \leftrightarrow j,mn}$ with $\beta_{m}=1$. \pause
+%		\item  $(A) = $ \textit{rejoice} and $(B) = $ \textit{regret} on an equal difference of attribute level.\pause
+%		\item For an equal difference of the attribute levels $\Rightarrow$ \hl{regret $>>>$ rejoice}\pause
+%		\item Linear RUM models $\Rightarrow$ fully-compensatory model.\pause
+%		\item \textbf{Compromise Effect}: Alternatives with \textit{``balanced''} performance in all attributes are more attractive than alternatives with a severe poor performance in one attribute.  
+%	\end{itemize}
+%\end{frame}
 
 
 
@@ -605,7 +648,7 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 \section{Mixed Random Regret Minimization Models}
 \begin{frame}{Mixed Random Regret Minimization Models}
 
-Additional assumptions of the model. 
+Additional assumptions of the mode: \underline{Individual Level Parameters}. \pause
 
 \begin{itemize}
 	\item $\boldsymbol{\beta}_{n}= \left(\beta_{n,1},\dots,\beta_{n,m}\right)$ follows a parametric distribution: $f\left(\boldsymbol{\beta}|\varphi \right) $.\medskip\pause 	
@@ -642,7 +685,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 	
 	\begin{itemize}
 	 \item Given that equation \eqref{eq:LL_mixed} has no closed form we will approximate it using simulations \citep{train2009discrete}. \pause \medskip
-	 \item Hence, we will estimate the model using Maximum Simulate Likelihood where we will maximize the following simulated log-likelihood function:\pause \medskip
+	 \item Hence, we will estimate the model using Maximum Simulated Likelihood where we will maximize the following simulated log-likelihood function:\pause \medskip
 	 
 
 	 \begin{equation}
@@ -652,7 +695,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 	 P_{n}(\boldsymbol{\beta}^{r})  
 	 \right\}
 	 \end{equation}\pause \medskip
-	 \item  $R$ is the number of replications and $r$ is the r-th drawn from $f\left(\boldsymbol{\beta}|\varphi \right) $.
+	 \item  $R$ is the number of draws and $r$ is the r-th draw from $f\left(\boldsymbol{\beta}|\varphi \right) $.
 	 
 	\end{itemize}
 	
@@ -664,9 +707,9 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 
 \begin{frame}{Individual Level Parameters}
  \begin{itemize}
- 	\item We can obtain estimates of the individual level parameters $(\boldsymbol{\beta}_{n})$: \medskip\pause
+ 	\item We can obtain estimates of the individual level parameter $(\boldsymbol{\beta}_{n})$ by: \medskip\pause
  	 	
- 	\begin{equation}
+ 	\begin{equation}\label{eq:individual_level_param}
 \boldsymbol{\bar{\beta}}_{n} = 
 \frac
 {\int_{\boldsymbol{\beta}} \boldsymbol{\beta} \times P_{n}(\boldsymbol{\beta})f(\boldsymbol{\beta}|\varphi) d\boldsymbol{\beta} }
@@ -684,7 +727,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
  \right)
  \end{equation}\medskip\pause
   
- \item For this estimation we will use the command \texttt{mixrbeta} after estimating the population parameters using \texttt{mixrandregret}.
+ \item For this estimation we will use the command  \texttt{mixrbeta} after estimating the population parameters using \texttt{mixrandregret} \citep{mixrandregret_2022}.
 
  \end{itemize}
 \end{frame}
@@ -696,7 +739,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 \section{Implementation}
 \subsection{Syntax}
 \begin{frame}{Syntax}
-	\texttt{mixrandregret} is implemented as a Mata-based \texttt{gf-0 ml} evaluator. The command allows the inclusion of normally and log-normally distributed random parameters. \medskip
+	\texttt{mixrandregret} \citep{mixrandregret_2022} is implemented as a Mata-based \texttt{gf-0 ml} evaluator. The command allows the inclusion of normally and log-normally distributed random parameters. \medskip
 	
 	\scalebox{0.85}{\begin{minipage}{\hsize}
 			\begin{stsyntax}
@@ -730,7 +773,8 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 \pause
 
     
-The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calculate individual-level parameters corresponding to the variables in the specified varname using the method proposed by \cite{train2009discrete}.\medskip
+The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calculate individual-level parameters corresponding to the variables in the specified \textit{varlist}
+ using equation \eqref{eq:individual_level_params_estimates}.\medskip
 
 	\scalebox{0.85}{\begin{minipage}{\hsize}
 \begin{stsyntax}
@@ -753,7 +797,7 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 	\begin{itemize}
 		\item 	Data from \cite{Sander_data}: Stated Choice (SC) experiment.\pause
 		
-				\scalebox{0.71}{\begin{minipage}{\hsize}
+				\scalebox{0.8}{\begin{minipage}{\hsize}
 				\begin{stlog}
 					\input{stlog/manipu_long.log.tex} \nullskip
 				\end{stlog}
@@ -761,11 +805,11 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 		\begin{itemize}
 			\item  Three unlabeled route alternatives ($J=3$).\pause
 			\medskip
-			\item Described by Travel Cost (\textit{\textbf{tc}}) and Travel Time (\textit{\textbf{tt}}) ($M=2$). \pause 
+			\item Described by \texttt{\textbf{total\_time}} and \texttt{\textbf{total\_cost}} ($M=2$). \pause 
 			\medskip
 		\end{itemize}
-		\item Each respondent (\textbf{\textit{id}}) answered a total of \hl{10 choice situations}.\pause\medskip
-		\item Variable \textit{\textbf{choice}} together with variable \textit{\textbf{altern}} allows us identify  choices.
+		\item Each respondent (\textbf{\texttt{id}}) answered a total of 10 choice situations.\pause\medskip
+		\item Variables \textbf{\texttt{choice}} and \textbf{\texttt{altern}} allows us to identify each choice.
 	\end{itemize}
 
 \end{frame}
@@ -775,51 +819,60 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 \begin{frame}{Fixed Parameter RRM model}
 
 	\begin{itemize}
-		\item First we estimate a fixed parameters regret model. 
-		\item As expected, both parameter estimates are negative.
-	\end{itemize}
-	
+		\item First we estimate a fixed parameters RRM model. \pause
+
 	\scalebox{0.8}{\begin{minipage}{\hsize}
 	\begin{stlog}
 	\input{stlog/RRM_classic_cluster.log.tex} \nullskip
 	\end{stlog}
-	\end{minipage}}
+	\end{minipage}}\pause
+
+		\item As expected, both parameter estimates are negative.
+\end{itemize}
+
 \end{frame}
 
 
 
 \begin{frame}{Mixed RRM model: Normal Distribution}
+	%f\left(\beta_{T}|\varphi\right)
 		\begin{itemize}
-		\item Mixed model with total time (\texttt{tt}) being Normally distributed.
-		\item The mean of \texttt{tt} is negative, as expected, however... 
-	\end{itemize}
-	
-	\scalebox{0.8}{\begin{minipage}{\hsize}
+		\item \textbf{\texttt{\textbf{total\_time}}} assumed to be normally distributed: $\beta_{T}\sim \mathcal{N}(\mu_{T}, \sigma_{T})$\pause
+		\item We estimate the two parameters of a normal distribution: $\mu_{T}$ and $\sigma_{T}$\pause
+
+	\scalebox{0.7}{\begin{minipage}{\hsize}
 			\begin{stlog}
 				\input{stlog/mixRRM_normal.log.tex} \nullskip
 			\end{stlog}
-	\end{minipage}}
+	\end{minipage}} \pause
+
+		\item The mean of \texttt{\textbf{total\_time}} is negative, as expected.
+\end{itemize}
 \end{frame}
 
 
 \begin{frame}{Mixed RRM model: Normal Distribution}
 	
 \begin{itemize}
-\item \texttt{mixrbeta} allows us to compute the individual level parameters of Equation \eqref{eq:individual_level_params_estimates}.
+\item We can compute the individual level parameters of Equation \eqref{eq:individual_level_params_estimates} using \texttt{mixrbeta}.\pause
 
-\item It creates a new data set with one observation per individual (\texttt{id}) and its corresponding parameters estimates.
-\end{itemize}
-	
+\item \texttt{mixrbeta} creates a new data set with one observation per individual (\texttt{\textbf{id}}) and its corresponding parameters estimates.\pause
+
 \scalebox{0.8}{\begin{minipage}{\hsize}
 \begin{stlog}
 \input{stlog/mixRRM_normal_idl.log.tex} \nullskip
 \end{stlog}
-\end{minipage}}
+\end{minipage}}\pause
+
+\item We observe that some of the individuals has a positive coefficient for Total Time (\texttt{\textbf{total\_time}}).
+\end{itemize}
+
+
 \end{frame}
 
 \begin{frame}{Mixed RRM model: Individual Level Parameters}
 	\begin{itemize}
-		\item  Individual Level Parameters for total time when we assume it as Normally distributed.\pause
+		\item  We can plot the individual level parameters for \texttt{\textbf{total\_time}} when we assume it as Normally distributed.\pause
 		
 		\begin{figure}
 			\centering
@@ -843,20 +896,27 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 \begin{frame}{Mixed RRM model: Log-normal Distribution}
 	
 \begin{itemize}
-	\item We can use a bounded distribution (negative Log-normal) to force that every individual has a negative parameter for total time.
-\end{itemize}
+	\item \texttt{\textbf{total\_time}} assumed Log-normal: $\beta_{T}\sim-1\times\exp\left(\mathcal{N}\left(\mu_{T},\sigma_{T}\right)\right)$\pause
+	\item Given that \texttt{\textbf{total\_time}} is expected to be negative, we created (\texttt{\textbf{ntt=-total\_time}}), since the log-normal distribution implies that the coefficient is positive.\pause
 	
-	\scalebox{0.77}{\begin{minipage}{\hsize}
+	
+		\scalebox{0.65}{\begin{minipage}{\hsize}
 			\begin{stlog}
 				\input{stlog/mixRRM_ln.log.tex} \nullskip
 			\end{stlog}
 	\end{minipage}}
+	
+
+	
+\end{itemize}
+	
+
 \end{frame}
 
 
 \begin{frame}{Mixed RRM model: Log-normal Distribution}
 	\begin{itemize}
-		\item Similarly, we can compute the individual level parameters for the log-normally distributed variable \texttt{tt}.
+		\item Similarly, we can compute the individual level parameters for the log-normally distributed variable \texttt{\textbf{tt}} using \underline{\texttt{mixrbeta}}.\pause
 		\end{itemize}
 	
 	\scalebox{0.85}{\begin{minipage}{\hsize}
@@ -886,9 +946,9 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 \begin{frame}{Mixed RRM model: Log-normal Distribution}
 	
 \begin{itemize}
-	\item The parameters we estimated are the mean ($\beta_{tt}$)	and standard deviation ($s_{tt}$) of the natural logarithm of the total time coefficient. 
-	\item Hence, the mean, median and variance of log-normal distributed parameter are equal to $\exp(\beta_{tt})$, $\exp(\beta_{tt} + s_{tt}/2)$ and $\exp(\beta_{tt} + s_{tt}/2)\times \sqrt{\exp(s^{2}_{tt})-1}$, respectively.
-	\item Finally, we can compute them using \text{nlcom}.
+	\item The parameters we estimated are the mean ($\beta_{T}$)	and standard deviation ($\sigma_{T}$) of the natural logarithm of the total time coefficient. \pause
+	\item Hence, the mean, median and variance of log-normal distributed parameter are equal to $\exp(\beta_{T})$, $\exp(\beta_{T} + \sigma_{T}/2)$ and $\exp(\beta_{T} + \sigma_{T}/2)\times \sqrt{\exp(\sigma^{2}_{T})-1}$, respectively.\pause
+	\item Finally, we can compute them using \text{nlcom}.\pause
 	
 \end{itemize}
 
@@ -906,9 +966,10 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 \section{Conclusions}
 
 \begin{frame}{Conclusions}
+	\justifying
 \begin{itemize}
-	\item The \texttt{mixrandregret} command extends its predecessor \texttt{randregret} \citep{randregret_2021} by allowing the inclusion of random coefficients in the regret functions.\medskip\pause
-	\item The parameters are estimated by Simulated Maximum Likelihood. \medskip\pause
+	\item The \texttt{mixrandregret} \citep{mixrandregret_2022} command extends its predecessor \texttt{randregret} \citep{randregret_2021} by allowing the inclusion of random coefficients in the regret functions.\medskip\pause
+	\item The parameters are estimated by Maximum Simulated  Likelihood. \medskip\pause
 	\item The random parameters can follow either a Normal or Log-normal distribution.\medskip\pause
 	\item Additionally, we can compute the individual level parameters using the \texttt{mixrbeta} command. \medskip\pause
 	
@@ -923,15 +984,38 @@ The command \texttt{mixrbeta} can be used after \texttt{mixrandregret} to calcul
 
 
 
-
-
 \section{Bibliography}
 \begin{frame}{Bibliography}
-	%\bibliographystyle{../../randregret_submission/article/sj}
 	\bibliography{sj}
 \end{frame}
 
 
 
+{
+	\setbeamercolor{background canvas}{bg=black}
+	\setbeamertemplate{navigation symbols}{}
+	\begin{frame}[plain,c]
+		\begin{center} 
+			\usebeamerfont*{frametitle} 
+			\usebeamercolor[fg]{frametitle}  
+			{\color{white} \large 
+				GitHub with Slides + Example code here: 
+			}
+		\end{center}
+	
+	\begin{figure}
+		\centering
+		\includegraphics[width=0.4\linewidth]{figures/QR_mixrandregret}
+		\label{fig:qrmixrandregret}
+	\end{figure}
+			\begin{center} 
+		\usebeamerfont*{frametitle} 
+		\usebeamercolor[fg]{frametitle}  
+		{\color{white} \Large Thanks \Peace 
+
+		}
+	\end{center}
+	\end{frame}
+}
 
 \end{document}

@@ -1,4 +1,4 @@
-. list id cs altern total_time total_cost choice in 1/6, sepby(cs) ab(10) noo
+. list  id cs  altern  total_time total_cost choice in 1/6, sepby(cs) ab(10) noo
 
   +-----------------------------------------------------+
   | id   cs   altern   total_time   total_cost   choice |

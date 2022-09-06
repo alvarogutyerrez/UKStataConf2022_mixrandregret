@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.30)  31 AUG 2022 09:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7200 64-bit) (preloaded format=pdflatex 2019.10.30)  6 SEP 2022 15:28
 entering extended mode
 **./mixrandregret_London2022.tex
 (mixrandregret_London2022.tex
@@ -999,7 +999,7 @@ ayer/tikz/libraries\tikzlibrarydecorations.pathreplacing.code.tex"
 ayer/tikz/libraries\tikzlibrarypositioning.code.tex"
 File: tikzlibrarypositioning.code.tex 2019/08/03 v3.1.4b (3.1.4b)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 36.
+Package hyperref Info: Option `colorlinks' set `true' on input line 38.
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/beamer\beamerfo
 ntthemeserif.sty")
@@ -1050,13 +1050,40 @@ Package: fancyvrb 2019/10/22
 \FV@StepNumber=\count171
 \FV@OutFile=\write5
 )
+("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
+.sty"
+Package: caption 2019/09/01 v3.3d Customizing captions (AR)
+
+("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/caption\caption
+3.sty"
+Package: caption3 2019/09/01 v1.8d caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 64.
+\captionmargin=\dimen267
+\captionmargin@=\dimen268
+\captionwidth=\dimen269
+\caption@tempdima=\dimen270
+\caption@indent=\dimen271
+\caption@parindent=\dimen272
+\caption@hangindent=\dimen273
+)
+\c@caption@flags=\count172
+\c@ContinuedFloat=\count173
+Package caption Info: beamer document class.
+Package caption Info: hyperref package is loaded.
+Package caption Info: Hyperref support is turned off
+(caption)             because hyperref has stopped early.
+)
+("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bbding\bbding.s
+ty"
+Package: bbding 1999/04/15 v1.01 Dingbats symbols
+)
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\multir
 ow.sty"
 Package: multirow 2019/05/31 v2.5 Span multiple rows of a table
 \multirow@colwidth=\skip57
-\multirow@cntb=\count172
+\multirow@cntb=\count174
 \multirow@dima=\skip58
-\bigstrutjot=\dimen267
+\bigstrutjot=\dimen274
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/multirow\bigstr
 ut.sty"
@@ -1077,15 +1104,15 @@ Package: alltt 1997/06/16 v2.0g defines alltt environment
 ) ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tools\calc.st
 y"
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count173
-\calc@Bcount=\count174
-\calc@Adimen=\dimen268
-\calc@Bdimen=\dimen269
+\calc@Acount=\count175
+\calc@Bcount=\count176
+\calc@Adimen=\dimen275
+\calc@Bdimen=\dimen276
 \calc@Askip=\skip59
 \calc@Bskip=\skip60
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count175
+\calc@Ccount=\count177
 \calc@Cskip=\skip61
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/base\ifthen.sty
@@ -1093,19 +1120,19 @@ LaTeX Info: Redefining \addtolength on input line 81.
 Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 )
 \st@box=\box84
-\st@box@wd=\dimen270
-\st@box@ht=\dimen271
-\st@box@dp=\dimen272
+\st@box@wd=\dimen277
+\st@box@ht=\dimen278
+\st@box@dp=\dimen279
 \stsyndent=\skip62
 \streswidth=\skip63
 \st@parindent=\skip64
 \stexamplehskip=\skip65
 \sttechhskip=\skip66
 \st@ttbox@box=\box85
-\st@ttbox@framesep=\dimen273
-\ttboxIndent=\dimen274
-\ttboxWd=\dimen275
-\st@ttbox@boxwd=\dimen276
+\st@ttbox@framesep=\dimen280
+\ttboxIndent=\dimen281
+\ttboxWd=\dimen282
+\st@ttbox@boxwd=\dimen283
 \st@box=\box86
 \st@emptywidth=\skip67
 \st@linesize=\skip68
@@ -1115,9 +1142,9 @@ Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
 \st@mtdepth=\skip72
 \st@xheight=\skip73
 \st@xwidth=\skip74
-\st@N=\count176
+\st@N=\count178
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+Package hyperref Info: Option `colorlinks' set `true' on input line 43.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/natbib\natbib.s
 ty"
@@ -1125,7 +1152,7 @@ Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip75
 \bibsep=\skip76
 LaTeX Info: Redefining \cite on input line 694.
-\c@NAT@ctr=\count177
+\c@NAT@ctr=\count179
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/tikzmark\tikzli
 brarytikzmark.code.tex"
@@ -1136,26 +1163,26 @@ Package: expl3 2019-10-24 L3 programming layer (loader)
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\expl3-
 code.tex"
 Package: expl3 2019-10-24 L3 programming layer (code)
-\c_max_int=\count178
-\l_tmpa_int=\count179
-\l_tmpb_int=\count180
-\g_tmpa_int=\count181
-\g_tmpb_int=\count182
-\l__seq_internal_a_int=\count183
-\l__seq_internal_b_int=\count184
-\g__kernel_prg_map_int=\count185
-\c__ior_term_noprompt_ior=\count186
-\c_log_iow=\count187
-\l_iow_line_count_int=\count188
-\l__iow_line_target_int=\count189
-\l__iow_one_indent_int=\count190
-\l__iow_indent_int=\count191
-\c_zero_dim=\dimen277
-\c_max_dim=\dimen278
-\l_tmpa_dim=\dimen279
-\l_tmpb_dim=\dimen280
-\g_tmpa_dim=\dimen281
-\g_tmpb_dim=\dimen282
+\c_max_int=\count180
+\l_tmpa_int=\count181
+\l_tmpb_int=\count182
+\g_tmpa_int=\count183
+\g_tmpb_int=\count184
+\l__seq_internal_a_int=\count185
+\l__seq_internal_b_int=\count186
+\g__kernel_prg_map_int=\count187
+\c__ior_term_noprompt_ior=\count188
+\c_log_iow=\count189
+\l_iow_line_count_int=\count190
+\l__iow_line_target_int=\count191
+\l__iow_one_indent_int=\count192
+\l__iow_indent_int=\count193
+\c_zero_dim=\dimen284
+\c_max_dim=\dimen285
+\l_tmpa_dim=\dimen286
+\l_tmpb_dim=\dimen287
+\g_tmpa_dim=\dimen288
+\g_tmpb_dim=\dimen289
 \c_zero_skip=\skip77
 \c_max_skip=\skip78
 \l_tmpa_skip=\skip79
@@ -1168,102 +1195,102 @@ Package: expl3 2019-10-24 L3 programming layer (code)
 \l_tmpb_muskip=\muskip15
 \g_tmpa_muskip=\muskip16
 \g_tmpb_muskip=\muskip17
-\l_keys_choice_int=\count192
-\l__intarray_loop_int=\count193
-\c__intarray_sp_dim=\dimen283
-\g__intarray_font_int=\count194
-\c__fp_leading_shift_int=\count195
-\c__fp_middle_shift_int=\count196
-\c__fp_trailing_shift_int=\count197
-\c__fp_big_leading_shift_int=\count198
-\c__fp_big_middle_shift_int=\count199
-\c__fp_big_trailing_shift_int=\count266
-\c__fp_Bigg_leading_shift_int=\count267
-\c__fp_Bigg_middle_shift_int=\count268
-\c__fp_Bigg_trailing_shift_int=\count269
-\c__kernel_randint_max_int=\count270
-\g__fp_array_int=\count271
-\l__fp_array_loop_int=\count272
-\l__sort_length_int=\count273
-\l__sort_min_int=\count274
-\l__sort_top_int=\count275
-\l__sort_max_int=\count276
-\l__sort_true_max_int=\count277
-\l__sort_block_int=\count278
-\l__sort_begin_int=\count279
-\l__sort_end_int=\count280
-\l__sort_A_int=\count281
-\l__sort_B_int=\count282
-\l__sort_C_int=\count283
-\l__str_internal_int=\count284
-\c__str_replacement_char_int=\count285
-\l__tl_analysis_normal_int=\count286
-\l__tl_analysis_index_int=\count287
-\l__tl_analysis_nesting_int=\count288
-\l__tl_analysis_type_int=\count289
-\l__regex_internal_a_int=\count290
-\l__regex_internal_b_int=\count291
-\l__regex_internal_c_int=\count292
-\l__regex_balance_int=\count293
-\l__regex_group_level_int=\count294
-\l__regex_mode_int=\count295
-\c__regex_cs_in_class_mode_int=\count296
-\c__regex_cs_mode_int=\count297
-\l__regex_catcodes_int=\count298
-\l__regex_default_catcodes_int=\count299
-\c__regex_catcode_D_int=\count300
-\c__regex_catcode_S_int=\count301
-\c__regex_catcode_L_int=\count302
-\c__regex_catcode_O_int=\count303
-\c__regex_catcode_A_int=\count304
-\c__regex_all_catcodes_int=\count305
-\l__regex_show_lines_int=\count306
-\l__regex_min_state_int=\count307
-\l__regex_max_state_int=\count308
-\l__regex_left_state_int=\count309
-\l__regex_right_state_int=\count310
-\l__regex_capturing_group_int=\count311
-\l__regex_min_pos_int=\count312
-\l__regex_max_pos_int=\count313
-\l__regex_curr_pos_int=\count314
-\l__regex_start_pos_int=\count315
-\l__regex_success_pos_int=\count316
-\l__regex_curr_char_int=\count317
-\l__regex_curr_catcode_int=\count318
-\l__regex_last_char_int=\count319
-\l__regex_case_changed_char_int=\count320
-\l__regex_curr_state_int=\count321
-\l__regex_step_int=\count322
-\l__regex_min_active_int=\count323
-\l__regex_max_active_int=\count324
-\l__regex_replacement_csnames_int=\count325
-\l__regex_match_count_int=\count326
-\l__regex_min_submatch_int=\count327
-\l__regex_submatch_int=\count328
-\l__regex_zeroth_submatch_int=\count329
-\g__regex_trace_regex_int=\count330
+\l_keys_choice_int=\count194
+\l__intarray_loop_int=\count195
+\c__intarray_sp_dim=\dimen290
+\g__intarray_font_int=\count196
+\c__fp_leading_shift_int=\count197
+\c__fp_middle_shift_int=\count198
+\c__fp_trailing_shift_int=\count199
+\c__fp_big_leading_shift_int=\count266
+\c__fp_big_middle_shift_int=\count267
+\c__fp_big_trailing_shift_int=\count268
+\c__fp_Bigg_leading_shift_int=\count269
+\c__fp_Bigg_middle_shift_int=\count270
+\c__fp_Bigg_trailing_shift_int=\count271
+\c__kernel_randint_max_int=\count272
+\g__fp_array_int=\count273
+\l__fp_array_loop_int=\count274
+\l__sort_length_int=\count275
+\l__sort_min_int=\count276
+\l__sort_top_int=\count277
+\l__sort_max_int=\count278
+\l__sort_true_max_int=\count279
+\l__sort_block_int=\count280
+\l__sort_begin_int=\count281
+\l__sort_end_int=\count282
+\l__sort_A_int=\count283
+\l__sort_B_int=\count284
+\l__sort_C_int=\count285
+\l__str_internal_int=\count286
+\c__str_replacement_char_int=\count287
+\l__tl_analysis_normal_int=\count288
+\l__tl_analysis_index_int=\count289
+\l__tl_analysis_nesting_int=\count290
+\l__tl_analysis_type_int=\count291
+\l__regex_internal_a_int=\count292
+\l__regex_internal_b_int=\count293
+\l__regex_internal_c_int=\count294
+\l__regex_balance_int=\count295
+\l__regex_group_level_int=\count296
+\l__regex_mode_int=\count297
+\c__regex_cs_in_class_mode_int=\count298
+\c__regex_cs_mode_int=\count299
+\l__regex_catcodes_int=\count300
+\l__regex_default_catcodes_int=\count301
+\c__regex_catcode_D_int=\count302
+\c__regex_catcode_S_int=\count303
+\c__regex_catcode_L_int=\count304
+\c__regex_catcode_O_int=\count305
+\c__regex_catcode_A_int=\count306
+\c__regex_all_catcodes_int=\count307
+\l__regex_show_lines_int=\count308
+\l__regex_min_state_int=\count309
+\l__regex_max_state_int=\count310
+\l__regex_left_state_int=\count311
+\l__regex_right_state_int=\count312
+\l__regex_capturing_group_int=\count313
+\l__regex_min_pos_int=\count314
+\l__regex_max_pos_int=\count315
+\l__regex_curr_pos_int=\count316
+\l__regex_start_pos_int=\count317
+\l__regex_success_pos_int=\count318
+\l__regex_curr_char_int=\count319
+\l__regex_curr_catcode_int=\count320
+\l__regex_last_char_int=\count321
+\l__regex_case_changed_char_int=\count322
+\l__regex_curr_state_int=\count323
+\l__regex_step_int=\count324
+\l__regex_min_active_int=\count325
+\l__regex_max_active_int=\count326
+\l__regex_replacement_csnames_int=\count327
+\l__regex_match_count_int=\count328
+\l__regex_min_submatch_int=\count329
+\l__regex_submatch_int=\count330
+\l__regex_zeroth_submatch_int=\count331
+\g__regex_trace_regex_int=\count332
 \c_empty_box=\box87
 \l_tmpa_box=\box88
 \l_tmpb_box=\box89
 \g_tmpa_box=\box90
 \g_tmpb_box=\box91
-\l__box_top_dim=\dimen284
-\l__box_bottom_dim=\dimen285
-\l__box_left_dim=\dimen286
-\l__box_right_dim=\dimen287
-\l__box_top_new_dim=\dimen288
-\l__box_bottom_new_dim=\dimen289
-\l__box_left_new_dim=\dimen290
-\l__box_right_new_dim=\dimen291
+\l__box_top_dim=\dimen291
+\l__box_bottom_dim=\dimen292
+\l__box_left_dim=\dimen293
+\l__box_right_dim=\dimen294
+\l__box_top_new_dim=\dimen295
+\l__box_bottom_new_dim=\dimen296
+\l__box_left_new_dim=\dimen297
+\l__box_right_new_dim=\dimen298
 \l__box_internal_box=\box92
 \l__coffin_internal_box=\box93
-\l__coffin_internal_dim=\dimen292
-\l__coffin_offset_x_dim=\dimen293
-\l__coffin_offset_y_dim=\dimen294
-\l__coffin_x_dim=\dimen295
-\l__coffin_y_dim=\dimen296
-\l__coffin_x_prime_dim=\dimen297
-\l__coffin_y_prime_dim=\dimen298
+\l__coffin_internal_dim=\dimen299
+\l__coffin_offset_x_dim=\dimen300
+\l__coffin_offset_y_dim=\dimen301
+\l__coffin_x_dim=\dimen302
+\l__coffin_y_dim=\dimen303
+\l__coffin_x_prime_dim=\dimen304
+\l__coffin_y_prime_dim=\dimen305
 \c_empty_coffin=\box94
 \l__coffin_aligned_coffin=\box95
 \l__coffin_aligned_internal_coffin=\box96
@@ -1271,20 +1298,20 @@ Package: expl3 2019-10-24 L3 programming layer (code)
 \l_tmpb_coffin=\box98
 \g_tmpa_coffin=\box99
 \g_tmpb_coffin=\box100
-\l__coffin_bounding_shift_dim=\dimen299
-\l__coffin_left_corner_dim=\dimen300
-\l__coffin_right_corner_dim=\dimen301
-\l__coffin_bottom_corner_dim=\dimen302
-\l__coffin_top_corner_dim=\dimen303
-\l__coffin_scaled_total_height_dim=\dimen304
-\l__coffin_scaled_width_dim=\dimen305
+\l__coffin_bounding_shift_dim=\dimen306
+\l__coffin_left_corner_dim=\dimen307
+\l__coffin_right_corner_dim=\dimen308
+\l__coffin_bottom_corner_dim=\dimen309
+\l__coffin_top_corner_dim=\dimen310
+\l__coffin_scaled_total_height_dim=\dimen311
+\l__coffin_scaled_width_dim=\dimen312
 \c__coffin_empty_coffin=\box101
 \l__coffin_display_coffin=\box102
 \l__coffin_display_coord_coffin=\box103
 \l__coffin_display_pole_coffin=\box104
-\l__coffin_display_offset_dim=\dimen306
-\l__coffin_display_x_dim=\dimen307
-\l__coffin_display_y_dim=\dimen308
+\l__coffin_display_offset_dim=\dimen313
+\l__coffin_display_x_dim=\dimen314
+\l__coffin_display_y_dim=\dimen315
 \g__char_data_ior=\read3
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3kernel\l3depr
@@ -1294,7 +1321,7 @@ File: l3deprecation.def 2019-04-06 v L3 Deprecated functions
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3backend\l3bac
 kend-pdfmode.def"
 File: l3backend-pdfmode.def 2019-04-06 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count331
+\l__kernel_color_stack_int=\count333
 \l__pdf_internal_box=\box105
 ))
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/l3ke
@@ -1304,15 +1331,15 @@ Package: l3keys2e 2019-10-11 LaTeX2e option processing using LaTeX3 keys
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/l3packages/xpar
 se\xparse.sty"
 Package: xparse 2019-10-11 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count332
-\g__xparse_grabber_int=\count333
-\l__xparse_m_args_int=\count334
-\l__xparse_v_nesting_int=\count335
+\l__xparse_current_arg_int=\count334
+\g__xparse_grabber_int=\count335
+\l__xparse_m_args_int=\count336
+\l__xparse_v_nesting_int=\count337
 )
-\l__sn_x_dim=\dimen309
-\l__sn_y_dim=\dimen310
-\l__sn_xa_dim=\dimen311
-\l__sn_ya_dim=\dimen312
+\l__sn_x_dim=\dimen316
+\l__sn_y_dim=\dimen317
+\l__sn_xa_dim=\dimen318
+\l__sn_ya_dim=\dimen319
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/generic/pgf/frontendl
 ayer/tikz/libraries\tikzlibrarydecorations.pathmorphing.code.tex"
@@ -1326,9 +1353,9 @@ Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
 \SOUL@buffer=\toks48
 \SOUL@token=\toks49
 \SOUL@spaceskip=\skip83
-\SOUL@ttwidth=\dimen313
-\SOUL@uldp=\dimen314
-\SOUL@ulht=\dimen315
+\SOUL@ttwidth=\dimen320
+\SOUL@uldp=\dimen321
+\SOUL@ulht=\dimen322
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/ragged2e\ragged
 2e.sty"
@@ -1355,98 +1382,95 @@ Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
 )
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\bullet' on input line 112.
+(hyperref)                removing `\bullet' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\color' on input line 112.
+(hyperref)                removing `\color' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\char' on input line 112.
+(hyperref)                removing `\char' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\char' on input line 112.
+(hyperref)                removing `\char' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\bullet' on input line 112.
+(hyperref)                removing `\bullet' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\color' on input line 112.
+(hyperref)                removing `\color' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\char' on input line 112.
+(hyperref)                removing `\char' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\char' on input line 112.
+(hyperref)                removing `\char' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\\' on input line 112.
+(hyperref)                removing `\\' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\bullet' on input line 112.
+(hyperref)                removing `\bullet' on input line 114.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 112.
+(hyperref)                removing `math shift' on input line 114.
 
 (mixrandregret_London2022.aux
-
-LaTeX Warning: Label `tab_choice_task_1_ex' multiply defined.
-
 
 LaTeX Warning: Label `fig:mixrrmlnidl' multiply defined.
 
 )
 \openout1 = `mixrandregret_London2022.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 119.
-LaTeX Font Info:    ... okay on input line 119.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 124.
+LaTeX Font Info:    ... okay on input line 124.
 LaTeX Font Info:    Trying to load font information for OT1+lmss on input line 
-119.
+124.
  ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmss.fd"
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
@@ -1488,16 +1512,16 @@ File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/context/base/mkii\sup
 p-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count336
-\scratchdimen=\dimen316
+\scratchcounter=\count338
+\scratchdimen=\dimen323
 \scratchbox=\box106
-\nofMPsegments=\count337
-\nofMParguments=\count338
+\nofMPsegments=\count339
+\nofMParguments=\count340
 \everyMPshowfont=\toks50
-\MPscratchCnt=\count339
-\MPscratchDim=\dimen317
-\MPnumerator=\count340
-\makeMPintoPDFobject=\count341
+\MPscratchCnt=\count341
+\MPscratchDim=\dimen324
+\MPnumerator=\count342
+\makeMPintoPDFobject=\count343
 \everyMPtoPDFconversion=\toks51
 )
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/oberdiek\epstop
@@ -1516,7 +1540,7 @@ G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 ) ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box107
-Package hyperref Info: Link coloring ON on input line 119.
+Package hyperref Info: Link coloring ON on input line 124.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/hyperref\namere
 f.sty"
@@ -1526,11 +1550,11 @@ Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 itlestring.sty"
 Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
-\c@section@level=\count342
+\c@section@level=\count344
 )
-LaTeX Info: Redefining \ref on input line 119.
-LaTeX Info: Redefining \pageref on input line 119.
-LaTeX Info: Redefining \nameref on input line 119.
+LaTeX Info: Redefining \ref on input line 124.
+LaTeX Info: Redefining \pageref on input line 124.
+LaTeX Info: Redefining \nameref on input line 124.
  (mixrandregret_London2022.out) (mixrandregret_London2022.out)
 \@outlinefile=\write6
 \openout6 = `mixrandregret_London2022.out'.
@@ -1560,72 +1584,75 @@ Dictionary: translator-numbers-dictionary, Language: English
 slator-theorem-dictionary-English.dict"
 Dictionary: translator-theorem-dictionary, Language: English 
 )
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+
 ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 119.
+LaTeX Info: Redefining \selectfont on input line 124.
  (mixrandregret_London2022.nav)
-<graphics/KUL.pdf, id=93, 159.33528pt x 56.90259pt>
+<graphics/KUL.pdf, id=89, 159.33528pt x 56.90259pt>
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 119.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 124.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 120.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 125.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 130.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 135.
 (pdftex.def)             Requested size: 80.30441pt x 28.67921pt.
-<TikZFigures/scale_param_effect.pdf, id=95, 236.17735pt x 104.72626pt>
+<TikZFigures/scale_param_effect.pdf, id=91, 236.17735pt x 104.72626pt>
 File: TikZFigures/scale_param_effect.pdf Graphic file (type pdf)
 <use TikZFigures/scale_param_effect.pdf>
 Package pdftex.def Info: TikZFigures/scale_param_effect.pdf  used on input line
- 130.
+ 135.
 (pdftex.def)             Requested size: 0.36676pt x 0.16139pt.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-130.
+135.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmtt.fd"
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <18> not available
-(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 130.
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 135.
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-30.
+35.
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-30.
+35.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omllmm.fd"
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-130.
+135.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omslmsy.fd"
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-130.
+135.
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/lm\omxlmex.fd"
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 130.
+(Font)              <10> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 130.
+(Font)              <7> on input line 135.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 130.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 130
+(Font)              <5> on input line 135.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 135
 .
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsa.f
 d"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 130
+LaTeX Font Info:    Trying to load font information for U+msb on input line 135
 .
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/amsfonts\umsb.f
@@ -1633,7 +1660,7 @@ d"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Trying to load font information for U+fontawesometwo on inp
-ut line 130.
+ut line 135.
 
 ("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/fontawesome\ufo
 ntawesometwo.fd"
@@ -1644,214 +1671,212 @@ File: ufontawesometwo.fd 2016/05/22 Font definitions for U/fontawesometwo.
 cs/KUL.pdf> <./TikZFigures/scale_param_effect.pdf>]
 (mixrandregret_London2022.toc)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 138.
+(Font)              <9> on input line 143.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 138.
+(Font)              <6> on input line 143.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 138.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 143.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [2
 
 ] (mixrandregret_London2022.toc)
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 141.
+(Font)              <12> on input line 146.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 141.
+(Font)              <8> on input line 146.
 
-Overfull \vbox (10.20842pt too high) detected at line 141
+Overfull \vbox (10.20842pt too high) detected at line 146
  []
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 141.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 146.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 [3
 
-]
+] (stlog/data_example_1.log.tex)
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <12> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 169
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 183
 .
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 169.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 183.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [4
 
-]pdfTeX warning (ext4): destination with the same identifier (name{tab_choice_t
-ask_1_ex}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.196 \end{frame}
-                 
+] (stlog/data_example_2.log.tex)
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <10> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 220.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 196.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 220.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [5
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 264.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 288.
 
 LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <9> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 264
+(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 288
 .
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 264.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 288.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [6
 
-]
+[6
+
+] (stlog/data_example_1.log.tex)
 LaTeX Font Info:    Trying to load font information for OMS+lmss on input line 
-437.
-LaTeX Font Info:    No file OMSlmss.fd. on input line 437.
+478.
+LaTeX Font Info:    No file OMSlmss.fd. on input line 478.
 
 
 LaTeX Font Warning: Font shape `OMS/lmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbackslash' on input line 437.
+(Font)              for symbol `textbackslash' on input line 478.
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 437.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 478.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 [7
 
 ]
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 458.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 501.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [8
 
 ]
-Overfull \hbox (50.58214pt too wide) detected at line 521
+Overfull \hbox (50.58214pt too wide) detected at line 564
 []
  []
 
 
-Overfull \hbox (16.44585pt too wide) in paragraph at lines 521--521
+Overfull \hbox (16.44585pt too wide) in paragraph at lines 564--564
 [][] 
  []
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 521.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 564.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 [9
 
 ]
-Overfull \hbox (5.82571pt too wide) in paragraph at lines 561--561
+Overfull \hbox (5.82571pt too wide) in paragraph at lines 604--604
 []\OT1/lmss/bx/n/12 1    Clas-si-cal RRM ([][]Cho-rus, 2010[][]):To-wards the l
 og-likelihood.[][][][] 
  []
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 561.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 604.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 [10
 
 ] (mixrandregret_London2022.toc)
-Overfull \vbox (10.20842pt too high) detected at line 563
- []
-
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 563.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 606.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
-[11
+ [11
 
 ]
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 581.
+(Font)              Font shape `OT1/lmss/m/sl' tried instead on input line 624.
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 581.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 624.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [12
 
-]
-<TikZFigures/non_compensatory_effect.pdf, id=269, 240.28268pt x 104.72626pt>
-File: TikZFigures/non_compensatory_effect.pdf Graphic file (type pdf)
-<use TikZFigures/non_compensatory_effect.pdf>
-Package pdftex.def Info: TikZFigures/non_compensatory_effect.pdf  used on input
- line 597.
-(pdftex.def)             Requested size: 193.31917pt x 84.25731pt.
-LaTeX Font Info:    Font shape `OT1/lmss/bx/it' in size <10> not available
-(Font)              Font shape `OT1/lmss/bx/sl' tried instead on input line 597
-.
+] (mixrandregret_London2022.toc)
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 597.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 648.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [13
 
- <./TikZFigures/non_compensatory_effect.pdf>]
-(mixrandregret_London2022.toc)
+[13
+
+]
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 605.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 680.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [14
 
 ]
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 637.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 703.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [15
 
-]
+] (mixrandregret_London2022.toc)
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 660.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 706.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [16
 
-] (mixrandregret_London2022.toc)
-File: graphics/KUL.pdf Graphic file (type pdf)
-<use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 663.
-(pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
-
-[17
-
 ]
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 690.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 733.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [18
+ [17
 
-] (mixrandregret_London2022.toc)
-Overfull \vbox (10.20842pt too high) detected at line 696
+]
+(mixrandregret_London2022.toc)
+Overfull \vbox (10.20842pt too high) detected at line 739
  []
 
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 696.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 739.
+(pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
+[18
+
+]
+Overfull \hbox (0.77762pt too wide) in paragraph at lines 789--789
+\OT1/lmss/m/n/10 individual-level pa-ram-e-ters cor-re-spond-ing to the vari-ab
+les in the spec-i-fied \OT1/lmss/m/sl/10 varlist
+ []
+
+File: graphics/KUL.pdf Graphic file (type pdf)
+<use graphics/KUL.pdf>
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 789.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 [19
 
-]
+] (stlog/manipu_long.log.tex
+Overfull \hbox (25.05267pt too wide) in paragraph at lines 815--1
+ []\OT1/lmtt/m/n/8 . list id cs altern total_time total_cost choice in 1/6, sep
+by(cs) ab(10) noo 
+ []
+
+)
+LaTeX Font Info:    Font shape `OT1/lmtt/bx/n' in size <9> not available
+(Font)              Font shape `OT1/lmtt/b/n' tried instead on input line 815.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 745.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 815.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
  [20
 
-] (stlog/manipu_long.log.tex)
-File: graphics/KUL.pdf Graphic file (type pdf)
-<use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 771.
-(pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [21
-
 ] (stlog/RRM_classic_cluster.log.tex
+Overfull \hbox (42.05467pt too wide) in paragraph at lines 833--1
+ []\OT1/lmtt/m/n/8 . randregret choice total_time total_cost , gr(cs) alt(alter
+n) rrmfn(classic) /// 
+ []
+
+
 Overfull \hbox (29.30467pt too wide) in paragraph at lines 3--3
  []||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||[] 
@@ -1865,7 +1890,7 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 5--5
 
 
 Overfull \hbox (29.30267pt too wide) in paragraph at lines 9--9
- []\OT1/lmtt/m/n/8 Case ID variable: obs                          Number of cas
+ []\OT1/lmtt/m/n/8 Case ID variable: cs                           Number of cas
 es    =       1060[] 
  []
 
@@ -1913,14 +1938,14 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 17--17
 
 
 Overfull \hbox (29.29668pt too wide) in paragraph at lines 19--19
- []          \OT1/lmtt/m/n/8 tc  |   -.417101    .068059    -6.13   0.000    -.
-5504943   -.2837078[] 
+ []  \OT1/lmtt/m/n/8 total_time  |   -.102813   .0182526    -5.63   0.000    -.
+1385874   -.0670386[] 
  []
 
 
 Overfull \hbox (29.29668pt too wide) in paragraph at lines 20--20
- []          \OT1/lmtt/m/n/8 tt  |   -.102813   .0182526    -5.63   0.000    -.
-1385874   -.0670386[] 
+ []  \OT1/lmtt/m/n/8 total_cost  |   -.417101    .068059    -6.13   0.000    -.
+5504943   -.2837078[] 
  []
 
 
@@ -1932,13 +1957,19 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 21--21
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 787.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 833.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [22
+ [21
 
 ] (stlog/mixRRM_normal.log.tex
+Overfull \hbox (50.55467pt too wide) in paragraph at lines 851--1
+ []\OT1/lmtt/m/n/8 . mixrandregret choice  total_cost , gr(cs) alt(altern) rand
+(total_time) id(id) /// 
+ []
+
+
 Overfull \hbox (29.30267pt too wide) in paragraph at lines 4--4
- []\OT1/lmtt/m/n/8 Case ID variable: obs                          Number of cas
+ []\OT1/lmtt/m/n/8 Case ID variable: cs                           Number of cas
 es    =       1060[] 
  []
 
@@ -1961,8 +1992,8 @@ Overfull \hbox (29.30067pt too wide) in paragraph at lines 11--11
  []
 
 
-Overfull \hbox (29.30067pt too wide) in paragraph at lines 12--12
- []\OT1/lmtt/m/n/8 Log likelihood =  -771.0469                     Prob > chi2 
+Overfull \hbox (29.30467pt too wide) in paragraph at lines 12--12
+ []\OT1/lmtt/m/n/8 Log likelihood = -771.05731                     Prob > chi2 
       =     0.0000[] 
  []
 
@@ -1986,14 +2017,14 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 17--17
 
 
 Overfull \hbox (29.29468pt too wide) in paragraph at lines 19--19
- []          \OT1/lmtt/m/n/8 tc  |  -1.102123   .0449951   -24.49   0.000    -1
-.190312   -1.013935[] 
+ []  \OT1/lmtt/m/n/8 total_cost  |  -1.102136   .0449727   -24.51   0.000    -1
+.190281   -1.013991[] 
  []
 
 
-Overfull \hbox (29.29268pt too wide) in paragraph at lines 20--20
- []          \OT1/lmtt/m/n/8 tt  |  -.3590164   .0583594    -6.15   0.000    -.
-4733987   -.2446341[] 
+Overfull \hbox (29.29668pt too wide) in paragraph at lines 20--20
+ []  \OT1/lmtt/m/n/8 total_time  |  -.3580736   .0581449    -6.16   0.000    -.
+4720355   -.2441117[] 
  []
 
 
@@ -2003,9 +2034,9 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 21--21
  []
 
 
-Overfull \hbox (29.29868pt too wide) in paragraph at lines 23--23
- []          \OT1/lmtt/m/n/8 tt  |   .5068101    .041324    12.26   0.000     .
-4258165    .5878037[] 
+Overfull \hbox (29.29468pt too wide) in paragraph at lines 23--23
+ []  \OT1/lmtt/m/n/8 total_time  |   .5068268    .041366    12.25   0.000      
+.425751    .5879027[] 
  []
 
 
@@ -2023,48 +2054,48 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 26--26
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 802.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 851.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [23
+ [22
 
 ] (stlog/mixRRM_normal_idl.log.tex
-Overfull \hbox (50.55467pt too wide) in paragraph at lines 4--4
- []\OT1/lmtt/m/n/8 . qui mixrbeta tt , nrep(2500)  replace saving("${graphs_rou
-te}\mixRRM_normal_idl")[] 
+Overfull \hbox (80.30467pt too wide) in paragraph at lines 4--4
+ []\OT1/lmtt/m/n/8 . qui mixrbeta total_time , nrep(500)  replace saving("${gra
+phs_route}\mixRRM_normal_idl")[] 
  []
 
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 818.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 871.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [24
+ [23
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./figures/mixRRM_normal_idl.pdf): PDF inclus
 ion: found PDF version <1.6>, but at most version <1.5> allowed
-<figures/mixRRM_normal_idl.pdf, id=390, 433.62pt x 289.08pt>
+<figures/mixRRM_normal_idl.pdf, id=368, 433.62pt x 289.08pt>
 File: figures/mixRRM_normal_idl.pdf Graphic file (type pdf)
 <use figures/mixRRM_normal_idl.pdf>
-Package pdftex.def Info: figures/mixRRM_normal_idl.pdf  used on input line 834.
+Package pdftex.def Info: figures/mixRRM_normal_idl.pdf  used on input line 887.
 
 (pdftex.def)             Requested size: 211.5358pt x 141.02406pt.
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 834.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 887.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
-[25
+[24
 
  <./figures/mixRRM_normal_idl.pdf>] (stlog/mixRRM_ln.log.tex
-Overfull \hbox (20.80467pt too wide) in paragraph at lines 3--3
- []\OT1/lmtt/m/n/8 . mixrandregret choice  tc , gr(obs) alt(altern) rand(ntt ) 
-ln(1) id(id) ///[] 
+Overfull \hbox (50.55467pt too wide) in paragraph at lines 3--3
+ []\OT1/lmtt/m/n/8 . mixrandregret choice  total_cost , gr(cs) alt(altern) rand
+(ntt ) ln(1) id(id) ///[] 
  []
 
 
 Overfull \hbox (29.30267pt too wide) in paragraph at lines 6--6
- []\OT1/lmtt/m/n/8 Case ID variable: obs                          Number of cas
+ []\OT1/lmtt/m/n/8 Case ID variable: cs                           Number of cas
 es    =       1060[] 
  []
 
@@ -2083,12 +2114,12 @@ s     =      3,180[]
 
 Overfull \hbox (29.30467pt too wide) in paragraph at lines 13--13
  []                                                \OT1/lmtt/m/n/8 Wald chi2(2)
-      =    1233.45[] 
+      =    1230.55[] 
  []
 
 
-Overfull \hbox (29.30467pt too wide) in paragraph at lines 14--14
- []\OT1/lmtt/m/n/8 Log likelihood = -785.32275                     Prob > chi2 
+Overfull \hbox (29.30267pt too wide) in paragraph at lines 14--14
+ []\OT1/lmtt/m/n/8 Log likelihood = -785.27671                     Prob > chi2 
       =     0.0000[] 
  []
 
@@ -2111,15 +2142,15 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 19--19
  []
 
 
-Overfull \hbox (29.29868pt too wide) in paragraph at lines 21--21
- []          \OT1/lmtt/m/n/8 tc  |  -1.217619   .0441873   -27.56   0.000    -1
-.304225   -1.131014[] 
+Overfull \hbox (29.30267pt too wide) in paragraph at lines 21--21
+ []  \OT1/lmtt/m/n/8 total_cost  |  -1.217682   .0442047   -27.55   0.000    -1
+.304321   -1.131042[] 
  []
 
 
 Overfull \hbox (29.29468pt too wide) in paragraph at lines 22--22
- []         \OT1/lmtt/m/n/8 ntt  |  -1.319534   .1558423    -8.47   0.000    -1
-.624979   -1.014089[] 
+ []         \OT1/lmtt/m/n/8 ntt  |  -1.312285   .1562202    -8.40   0.000    -1
+.618471   -1.006099[] 
  []
 
 
@@ -2129,9 +2160,9 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 23--23
  []
 
 
-Overfull \hbox (29.29068pt too wide) in paragraph at lines 25--25
- []         \OT1/lmtt/m/n/8 ntt  |   1.361021   .1181699    11.52   0.000     1
-.129412     1.59263[] 
+Overfull \hbox (29.29268pt too wide) in paragraph at lines 25--25
+ []         \OT1/lmtt/m/n/8 ntt  |   1.363632   .1185994    11.50   0.000     1
+.131181    1.596082[] 
  []
 
 
@@ -2149,95 +2180,95 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 28--28
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 854.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 914.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [26
+ [25
 
 ] (stlog/mixRRM_ln_idl.log.tex
-Overfull \hbox (37.80467pt too wide) in paragraph at lines 2--2
- []\OT1/lmtt/m/n/8 . qui mixrbeta ntt , nrep(2500)  replace saving("${graphs_ro
-ute}\mixRRM_ln_idl")[] 
+Overfull \hbox (33.55467pt too wide) in paragraph at lines 2--2
+ []\OT1/lmtt/m/n/8 . qui mixrbeta ntt , nrep(500)  replace saving("${graphs_rou
+te}\mixRRM_ln_idl")[] 
  []
 
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 867.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 927.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [27
+ [26
 
 ]
 
 pdfTeX warning: pdflatex.exe (file ./figures/mixRRM_ln_idl.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<figures/mixRRM_ln_idl.pdf, id=421, 433.62pt x 289.08pt>
+<figures/mixRRM_ln_idl.pdf, id=399, 433.62pt x 289.08pt>
 File: figures/mixRRM_ln_idl.pdf Graphic file (type pdf)
 <use figures/mixRRM_ln_idl.pdf>
-Package pdftex.def Info: figures/mixRRM_ln_idl.pdf  used on input line 883.
+Package pdftex.def Info: figures/mixRRM_ln_idl.pdf  used on input line 943.
 (pdftex.def)             Requested size: 211.5358pt x 141.02406pt.
 pdfTeX warning (ext4): destination with the same identifier (name{fig:mixrrmlni
 dl}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.883 \end{frame}
+l.943 \end{frame}
                  
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 883.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 943.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [28
+ [27
 
  <./figures/mixRRM_ln_idl.pdf>]
 (stlog/mixRRM_delta.log.tex
-Overfull \hbox (42.05467pt too wide) in paragraph at lines 3--3
- []\OT1/lmtt/m/n/8 > (sd_time: exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2) * sqrt(ex
-p([SD]_b[ntt ]^2)-1))[] 
+Overfull \hbox (42.05467pt too wide) in paragraph at lines 4--4
+ []\OT1/lmtt/m/n/8 > (sd_time  :    exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)*sqrt(e
+xp([SD]_b[ntt]^2)-1))[] 
  []
 
 
-Overfull \hbox (50.55467pt too wide) in paragraph at lines 7--7
- []     \OT1/lmtt/m/n/8 sd_time:  exp([Mean]_b[ntt ]+0.5*[SD]_b[ntt ]^2) * sqrt
-(exp([SD]_b[ntt ]^2)-1)[] 
+Overfull \hbox (29.30467pt too wide) in paragraph at lines 8--8
+ []     \OT1/lmtt/m/n/8 sd_time:  exp([Mean]_b[ntt]+0.5*[SD]_b[ntt]^2)*sqrt(exp
+([SD]_b[ntt]^2)-1)[] 
  []
 
 
-Overfull \hbox (29.30467pt too wide) in paragraph at lines 9--9
+Overfull \hbox (29.30467pt too wide) in paragraph at lines 10--10
  []||||||||||||| [] |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||[] 
  []
 
 
-Overfull \hbox (29.30267pt too wide) in paragraph at lines 10--10
+Overfull \hbox (29.30267pt too wide) in paragraph at lines 11--11
  []      \OT1/lmtt/m/n/8 choice  |      Coef.   Std. Err.      z    P>|z|     [
 95% Conf. Interval][] 
  []
 
 
-Overfull \hbox (29.30467pt too wide) in paragraph at lines 11--11
+Overfull \hbox (29.30467pt too wide) in paragraph at lines 12--12
  []||||||||||||| [] |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||[] 
  []
 
 
-Overfull \hbox (29.28468pt too wide) in paragraph at lines 12--12
- []   \OT1/lmtt/m/n/8 mean_time  |  -.6747959   .1561273    -4.32   0.000    -.
-9807998   -.3687919[] 
- []
-
-
 Overfull \hbox (29.28868pt too wide) in paragraph at lines 13--13
- []    \OT1/lmtt/m/n/8 med_time  |  -.2672598   .0416504    -6.42   0.000     -
-.348893   -.1856266[] 
+ []   \OT1/lmtt/m/n/8 mean_time  |   -.682127   .1587961    -4.30   0.000    -.
+9933616   -.3708923[] 
  []
 
 
-Overfull \hbox (29.29668pt too wide) in paragraph at lines 14--14
- []     \OT1/lmtt/m/n/8 sd_time  |   1.564444   .6164874     2.54   0.011     .
-3561513    2.772737[] 
+Overfull \hbox (29.29268pt too wide) in paragraph at lines 14--14
+ []    \OT1/lmtt/m/n/8 med_time  |  -.2692041   .0420551    -6.40   0.000    -.
+3516307   -.1867776[] 
  []
 
 
-Overfull \hbox (29.30467pt too wide) in paragraph at lines 15--15
+Overfull \hbox (29.29468pt too wide) in paragraph at lines 15--15
+ []     \OT1/lmtt/m/n/8 sd_time  |   1.588122   .6295756     2.52   0.012     .
+3541763    2.822067[] 
+ []
+
+
+Overfull \hbox (29.30467pt too wide) in paragraph at lines 16--16
  []||||||||||||| [] |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||
 ||||||[] 
  []
@@ -2245,31 +2276,31 @@ Overfull \hbox (29.30467pt too wide) in paragraph at lines 15--15
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 901.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 961.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [29
+ [28
 
 ] (mixrandregret_London2022.toc)
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 906.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 966.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [30
+ [29
 
 ]
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 920.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 981.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [31
+ [30
 
 ] (mixrandregret_London2022.toc)
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 928.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 987.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
 
-[32
+[31
 
 ] (mixrandregret_London2022.bbl
 LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
@@ -2277,11 +2308,26 @@ LaTeX Font Info:    Font shape `OT1/lmss/m/it' in size <7> not available
 )
 File: graphics/KUL.pdf Graphic file (type pdf)
 <use graphics/KUL.pdf>
-Package pdftex.def Info: graphics/KUL.pdf  used on input line 932.
+Package pdftex.def Info: graphics/KUL.pdf  used on input line 990.
 (pdftex.def)             Requested size: 38.24367pt x 13.65816pt.
- [33
+ [32
 
 ]
+<figures/QR_mixrandregret.pdf, id=466, 836.12375pt x 836.12375pt>
+File: figures/QR_mixrandregret.pdf Graphic file (type pdf)
+<use figures/QR_mixrandregret.pdf>
+Package pdftex.def Info: figures/QR_mixrandregret.pdf  used on input line 1018.
+
+(pdftex.def)             Requested size: 128.87617pt x 128.87062pt.
+LaTeX Font Info:    Trying to load font information for U+ding on input line 10
+18.
+
+("C:\Users\u0133260\AppData\Local\Programs\MiKTeX 2.9\tex/latex/bbding\uding.fd
+"
+File: Uding.fd 1996/02/01 v1.0 BBding font definitions
+) [33
+
+ <./figures/QR_mixrandregret.pdf>]
 \tf@nav=\write7
 \openout7 = `mixrandregret_London2022.nav'.
 
@@ -2291,14 +2337,15 @@ Package pdftex.def Info: graphics/KUL.pdf  used on input line 932.
 \tf@snm=\write9
 \openout9 = `mixrandregret_London2022.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 937.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 937.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1021.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1021.
  (mixrandregret_London2022.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 937.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 937.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1021.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1021.
+
 Package rerunfilecheck Info: File `mixrandregret_London2022.out' has not change
 d.
-(rerunfilecheck)             Checksum: 1E992614E4CB6589B410E40F425709A2;935.
+(rerunfilecheck)             Checksum: 6DD410773D90521B521234C685AFD415;831.
 
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
@@ -2308,65 +2355,66 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 38780 strings out of 492453
- 793741 string characters out of 3118674
- 871289 words of memory out of 3000000
- 42310 multiletter control sequences out of 15000+200000
- 623486 words of font info for 95 fonts, out of 3000000 for 9000
+ 40005 strings out of 492453
+ 815997 string characters out of 3118674
+ 886976 words of memory out of 3000000
+ 43511 multiletter control sequences out of 15000+200000
+ 621811 words of font info for 98 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,96p,918b,883s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm
-.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rmtt.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/
-lm/lm-mathit.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
-/dvips/lm/lm-mathsy.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/enc/dvips/lm/lm-mathex.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX
- 2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/u0133260/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome/FontAwesome.pfb><C:/Us
-ers/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/c
-mmi10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publ
-ic/amsfonts/cm/cmmi7.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/u0133260/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/u0133260/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/u01332
-60/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx7.pfb><C:/Users/
-u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:
-/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.
-pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/
-lmmi12.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmmi5.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/typ
-e1/public/lm/lmmi6.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fon
-ts/type1/public/lm/lmmi7.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/u0133260/AppData/Local/Programs/Mi
-KTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Users/u0133260/AppData/Local/Progr
-ams/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Users/u0133260/AppData/Loc
-al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib7.pfb><C:/Users/u0133260/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/u013326
-0/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/u0
-133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr9.pfb><C:/Use
-rs/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss10.pfb>
-<C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmss
-12.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/
-lm/lmss8.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/p
-ublic/lm/lmss9.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/t
-ype1/public/lm/lmssbo10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.
-9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/u0133260/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Users/u0133260/AppData/Local/P
-rograms/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Users/u0133260/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso9.pfb><C:/Users/u0133260/A
-ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/u01
-33260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy6.pfb><C:/Use
-rs/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><
-C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy8
+ <C:\Users\u0133260\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/public/bbding/dp
+i864\bbding10.pk>{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/enc
+/dvips/lm/lm-rm.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/
+enc/dvips/lm/lm-rmtt.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/lm/lm-mathit.enc}{C:/Users/u0133260/AppData/Local/Programs/MiKTe
+X 2.9/fonts/enc/dvips/lm/lm-mathsy.enc}{C:/Users/u0133260/AppData/Local/Program
+s/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mathex.enc}{C:/Users/u0133260/AppData/Local/
+Programs/MiKTeX 2.9/fonts/enc/dvips/fontawesome/fontawesometwo.enc}<C:/Users/u0
+133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/fontawesome/FontAwe
+some.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/publi
+c/amsfonts/cm/cmmi10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Users/u0133260/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/u0133260/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/User
+s/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx10.pfb><
+C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmbx7
 .pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm
-/lmsy9.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pub
-lic/lm/lmtk10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/ty
-pe1/public/lm/lmtt10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/f
-onts/type1/public/lm/lmtt8.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX
- 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on mixrandregret_London2022.pdf (33 pages, 803398 bytes).
+/lmex10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/pu
+blic/lm/lmmi10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/t
+ype1/public/lm/lmmi12.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmmi5.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTe
+X 2.9/fonts/type1/public/lm/lmmi6.pfb><C:/Users/u0133260/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/u0133260/AppData/Local/Pr
+ograms/MiKTeX 2.9/fonts/type1/public/lm/lmmi8.pfb><C:/Users/u0133260/AppData/Lo
+cal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi9.pfb><C:/Users/u0133260/AppD
+ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib10.pfb><C:/Users/u0133
+260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmib7.pfb><C:/User
+s/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C
+:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.p
+fb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/l
+mr9.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/lm/lmss10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1
+/public/lm/lmss12.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/font
+s/type1/public/lm/lmss8.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.
+9/fonts/type1/public/lm/lmss9.pfb><C:/Users/u0133260/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmssbo10.pfb><C:/Users/u0133260/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Users/u0133260/AppData/
+Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso10.pfb><C:/Users/u0133260/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso8.pfb><C:/Users/u0
+133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsso9.pfb><C:/U
+sers/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pf
+b><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lm
+sy6.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public
+/lm/lmsy7.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/
+public/lm/lmsy8.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/fonts/
+type1/public/lm/lmsy9.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKTeX 2.9/
+fonts/type1/public/lm/lmtk10.pfb><C:/Users/u0133260/AppData/Local/Programs/MiKT
+eX 2.9/fonts/type1/public/lm/lmtt10.pfb><C:/Users/u0133260/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmtt8.pfb><C:/Users/u0133260/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam10.pfb>
+Output written on mixrandregret_London2022.pdf (33 pages, 832724 bytes).
 PDF statistics:
- 624 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 276 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 618 PDF objects out of 1000 (max. 8388607)
+ 95 named destinations out of 1000 (max. 500000)
+ 268 words of extra memory for PDF output out of 10000 (max. 10000000)
 

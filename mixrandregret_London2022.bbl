@@ -23,4 +23,10 @@ Train, K.~E. (2009).
 \newblock 4TU.Centre for Research Data, Dataset
   \url{https://doi.org/10.4121/uuid:1ccca375-68ca-4cb6-8fc0-926712f50404}.
 
+\bibitem[Zhu, 2022]{mixrandregret_2022}
+Zhu, Z. (2022).
+\newblock {\em mixrandregret: A command for fitting mixed random regret
+  minimization models using Stata}.
+\newblock Master's thesis, KU Leuven.
+
 \end{thebibliography}

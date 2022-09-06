@@ -1,0 +1,9 @@
+. list altern  total_time total_cost in 1/3, sepby(cs) ab(10) noo
+
+  +----------------------------------+
+  | altern   total_time   total_cost |
+  |----------------------------------|
+  |  First           23            6 |
+  | Second           27            4 |
+  |  Third           35            3 |
+  +----------------------------------+

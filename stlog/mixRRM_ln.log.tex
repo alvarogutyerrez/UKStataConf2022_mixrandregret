@@ -1,28 +1,28 @@
-. gen ntt = -1 * tt
+. gen ntt = -1 * total_time
 {\smallskip}
-. mixrandregret choice  tc , gr(obs) alt(altern) rand(ntt ) ln(1) id(id) ///
-> nocons cluster(id)  nrep(2500) tech(bhhh) from(b_mixrrm) nolog
+. mixrandregret choice  total_cost , gr(cs) alt(altern) rand(ntt ) ln(1) id(id) ///
+> nocons cluster(id)  nrep(500) tech(bhhh) from(b_mixrrm) nolog
 {\smallskip}
-Case ID variable: obs                          Number of cases    =       1060
+Case ID variable: cs                           Number of cases    =       1060
 Alternative variable: altern                   
 Random variable(s): ntt                        
 {\smallskip}
                                  (Std. Err. adjusted for  106 clusters in id)
 {\smallskip}
 Mixed random regret model                       Number of obs     =      3,180
-                                                Wald chi2(2)      =    1233.45
-Log likelihood = -785.32275                     Prob > chi2       =     0.0000
+                                                Wald chi2(2)      =    1230.55
+Log likelihood = -785.27671                     Prob > chi2       =     0.0000
 {\smallskip}
 \HLI{13}{\TOPT}\HLI{64}
              {\VBAR}                 OPG
       choice {\VBAR}      Coef.   Std. Err.      z    P>|z|     [95\% Conf. Interval]
 \HLI{13}{\PLUS}\HLI{64}
 Mean         {\VBAR}
-          tc {\VBAR}  -1.217619   .0441873   -27.56   0.000    -1.304225   -1.131014
-         ntt {\VBAR}  -1.319534   .1558423    -8.47   0.000    -1.624979   -1.014089
+  total_cost {\VBAR}  -1.217682   .0442047   -27.55   0.000    -1.304321   -1.131042
+         ntt {\VBAR}  -1.312285   .1562202    -8.40   0.000    -1.618471   -1.006099
 \HLI{13}{\PLUS}\HLI{64}
 SD           {\VBAR}
-         ntt {\VBAR}   1.361021   .1181699    11.52   0.000     1.129412     1.59263
+         ntt {\VBAR}   1.363632   .1185994    11.50   0.000     1.131181    1.596082
 \HLI{13}{\BOTT}\HLI{64}
 {\smallskip}
 The sign of the estimated standard deviations is irrelevant: interpret them as

@@ -1,4 +1,4 @@
-. randregret choice  tc tt, gr(obs) alt(altern) rrmfn(classic) ///
+. randregret choice total_time total_cost , gr(cs) alt(altern) rrmfn(classic) ///
 > nocons cluster(id)  nolog
 ------------------------------------------------------------------------------
 Fitting Classic RRM Model 
@@ -6,7 +6,7 @@ Fitting Classic RRM Model
 
 RRM: Classic Random Regret Minimization Model
 
-Case ID variable: obs                          Number of cases    =       1060
+Case ID variable: cs                           Number of cases    =       1060
 Alternative variable: altern                   Number of obs      =       3180
                                                Wald chi2(2)       =      40.41
 Log likelihood = -1118.4784                    Prob > chi2        =     0.0000
@@ -16,8 +16,8 @@ Log likelihood = -1118.4784                    Prob > chi2        =     0.0000
       choice |      Coef.   Std. Err.      z    P>|z|     [95% Conf. Interval]
 -------------+----------------------------------------------------------------
 RRM          |
-          tc |   -.417101    .068059    -6.13   0.000    -.5504943   -.2837078
-          tt |   -.102813   .0182526    -5.63   0.000    -.1385874   -.0670386
+  total_time |   -.102813   .0182526    -5.63   0.000    -.1385874   -.0670386
+  total_cost |   -.417101    .068059    -6.13   0.000    -.5504943   -.2837078
 ------------------------------------------------------------------------------
 
 . matrix b_rrm = e(b)

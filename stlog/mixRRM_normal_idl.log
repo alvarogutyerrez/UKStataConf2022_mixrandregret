@@ -1,18 +1,18 @@
 . preserve 
 
 . /* Computing Individual Level Parameters */
-. qui mixrbeta tt , nrep(2500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
+. qui mixrbeta total_time , nrep(500)  replace saving("${graphs_route}\mixRRM_normal_idl") 
 
 . use "${graphs_route}\mixRRM_normal_idl" , replace
 
-. list id  tt  in 1/5 
+. list id  total_time  in 1/5 
 
      +-----------------+
-     | id           tt |
+     | id   total_time |
      |-----------------|
-  1. |  1    .37685711 |
-  2. |  2   -.05430611 |
-  3. |  3    .37977812 |
-  4. |  4    .38137321 |
-  5. |  5    .38062728 |
+  1. |  1    .37640482 |
+  2. |  2   -.05517462 |
+  3. |  3    .37672848 |
+  4. |  4    .38495822 |
+  5. |  5    .37607978 |
      +-----------------+

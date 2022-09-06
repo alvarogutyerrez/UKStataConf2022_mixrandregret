@@ -4,11 +4,10 @@
 \beamer@subsectionintoc {1}{2}{Classical Regret Function}{9}{0}{1}
 \beamer@sectionintoc {2}{Differences between RUM and RRM models.}{11}{0}{2}
 \beamer@subsectionintoc {2}{1}{Taste Parameter Interpretation in RRM models}{12}{0}{2}
-\beamer@subsectionintoc {2}{2}{Semi-compensatory Behavior and the Compromise Effect }{13}{0}{2}
-\beamer@sectionintoc {3}{Mixed Random Regret Minimization Models}{14}{0}{3}
-\beamer@sectionintoc {4}{Individual Level Parameters}{17}{0}{4}
-\beamer@sectionintoc {5}{Implementation}{19}{0}{5}
-\beamer@subsectionintoc {5}{1}{Syntax}{20}{0}{5}
-\beamer@subsectionintoc {5}{2}{Outputs}{21}{0}{5}
-\beamer@sectionintoc {6}{Conclusions}{30}{0}{6}
-\beamer@sectionintoc {7}{Bibliography}{32}{0}{7}
+\beamer@sectionintoc {3}{Mixed Random Regret Minimization Models}{13}{0}{3}
+\beamer@sectionintoc {4}{Individual Level Parameters}{16}{0}{4}
+\beamer@sectionintoc {5}{Implementation}{18}{0}{5}
+\beamer@subsectionintoc {5}{1}{Syntax}{19}{0}{5}
+\beamer@subsectionintoc {5}{2}{Outputs}{20}{0}{5}
+\beamer@sectionintoc {6}{Conclusions}{29}{0}{6}
+\beamer@sectionintoc {7}{Bibliography}{31}{0}{7}
