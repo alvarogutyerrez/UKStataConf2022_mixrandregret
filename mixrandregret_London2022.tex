@@ -210,9 +210,9 @@
 \end{minipage}}\pause
 	
 	\begin{itemize}
-		\item Individuals (\texttt{\textbf{id}}) are referred by  \hl{$n$}; they answer \hl{$s$} choice situations (\texttt{\textbf{cs}}). \pause 
-		\item They decide among $J$ alternatives (\texttt{\textbf{altern}}) (referred by \hl{$i$} or \hl{$j$}).\pause
-		\item Alternatives are described by $M$ attributes referred by \hl{$m$} (\texttt{\textbf{total\_time}}  and \texttt{\textbf{total\_cost}}). \pause
+		\item Individuals (\texttt{\textbf{id}}) are referred to by  \hl{$n$} answer \hl{$s$} choice situations (\texttt{\textbf{cs}}). \pause 
+		\item They decide among $J$ alternatives (\texttt{\textbf{altern}}) (referred to by \hl{$i$} or \hl{$j$}).\pause
+		\item Alternatives are described by $M$ attributes referred to by \hl{$m$} (\texttt{\textbf{total\_time}}  and \texttt{\textbf{total\_cost}}). \pause
 		
 		\item \hl{$x_{ins,m}$}: value of attribute $m$ of alternative $i$ for individual $n$ in choice situation $s$. \pause(yes, 4 sub-indexes; \pause I am sorry...)\pause
 		\item \hl{$y_{ins}$}: response variable (\texttt{\textbf{choice}}). It takes the value of 1 when alternative $i$ is chosen by individual $n$ in choice situation $s$; 0 otherwise.
@@ -521,7 +521,8 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 	
 	\begin{align}\label{eq:RRM_classic}
 	R_{ins} &= 
-	\sum_{j\neq i }^{J}   \tikzmarknode{sumclassicRRM}{\sum_{m=1}^{M}}\tikzmarknode{atributlevelclassicRRM}{R_{i\leftrightarrow j ns,m}}
+	\tikzmarknode{sumAltern}{\sum_{j\neq i }^{J}}   \tikzmarknode{sumclassicRRM}{\sum_{m=1}^{M}}
+	\tikzmarknode{atributlevelclassicRRM}{R_{i\leftrightarrow j ns,m}}
 	=
 	\sum_{j\neq i }^{J}   \sum_{m=1}^{M}
 	\ln
@@ -533,18 +534,24 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 	\right]
 	\end{align}
 	\pause
-		\begin{tikzpicture}[overlay,remember picture,decoration={segment
+	\begin{tikzpicture}[overlay,remember picture,decoration={segment
 		length=1pt,amplitude=0.4pt},red]
-	\draw[decorate,->] (atributlevelclassicRRM)
-	to[out=150,in=-500] ++  (0.15,0.95)  node[right,->]{Attribute level regret. };
+	\draw[decorate,->] (sumAltern)
+	to[out=500,in=-500] ++  (-1,1)  node[right,->]{Sum over alternatives.};
 	\end{tikzpicture}
 	\pause
 	\begin{tikzpicture}[overlay,remember picture,decoration={segment
 		length=1pt,amplitude=0.4pt},red]
 	\draw[decorate,->] (sumclassicRRM)
-	to[out=-500,in=-500] ++  (0.75,-1)  node[right,->]{Sum over attributes.};
+	to[out=-400,in=-2500] ++  (0.75,-1)  node[left,->]{Sum over attributes.};
 	\end{tikzpicture}
 	\pause
+	\begin{tikzpicture}[overlay,remember picture,decoration={segment
+		length=1pt,amplitude=0.4pt},red]
+	\draw[decorate,->] (atributlevelclassicRRM)
+	to[out=150,in=-500] ++  (1.05,0.75)  node[right,->]{Attribute level regret. };
+	\end{tikzpicture}
+				\pause	
 	\medskip		
 	\medskip
 	
@@ -609,7 +616,7 @@ $$R_{i\leftrightarrow j ns,m} =	\ln
 \begin{frame}{Taste Parameter Interpretation in RRM models}
 	\begin{itemize}
 		\item RUM:  parameters are interpreted as the change in utility caused by an increase of a particular attribute level.\pause
-		\item RRM: parameters represent the \textit{potential} change in regret associated \hl{with comparing a considered alternative with another alternative in terms of the attribute}, caused by one unit change in a particular attribute level.\pause
+		\item RRM: parameters represent the \textit{potential} change in regret  \hl{caused by one unit increase in a particular attribute level in one of the non-chosen alternatives}.\pause
 		\begin{itemize}
 			\item For instance if  $\hat{\beta}_{n,m}>0$ \\ \pause
 			suggests that \hl{regret increases} as the \hl{level of that attribute increases} {\color{red}{\textbf{in a non-chosen alternative}}}, in comparison to the level of the same attribute in the chosen alternative \pause (e.g: Comfortable level).\pause
@@ -707,7 +714,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 
 \begin{frame}{Individual Level Parameters}
  \begin{itemize}
- 	\item We can obtain estimates of the individual level parameter $(\boldsymbol{\beta}_{n})$ by: \medskip\pause
+ 	\item We can compute the mean $(\boldsymbol{\bar{\beta}}_{n})$ of the distribution of individuals that choose a given sequence of choices as: \medskip\pause
  	 	
  	\begin{equation}\label{eq:individual_level_param}
 \boldsymbol{\bar{\beta}}_{n} = 
@@ -716,7 +723,7 @@ P_{n}(\boldsymbol{\beta}_{n})  = \prod_{s=1}^{S}\prod_{i=1}^{J} \left\{P_{ins}\r
 {\int_{\boldsymbol{\beta}}  P_{n}(\boldsymbol{\beta})f(\boldsymbol{\beta}|\varphi) d\boldsymbol{\beta} }
  \end{equation}\medskip\pause
  
- \item We will approximate this individual level parameter by simulation using:\medskip\pause
+ \item Since the integrals of equation \eqref{eq:individual_level_param} do not have a close form solution. We will approximate $\boldsymbol{\bar{\beta}}_{n}$ by simulation using:\medskip\pause
  
  \begin{equation}\label{eq:individual_level_params_estimates}
  \boldsymbol{\check{\beta}}_{n}  = 
